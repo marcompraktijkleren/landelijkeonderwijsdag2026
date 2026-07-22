@@ -1,0 +1,5 @@
+.claude/
+deploy-*.zip
+.netlify/
+.DS_Store
+Thumbs.db

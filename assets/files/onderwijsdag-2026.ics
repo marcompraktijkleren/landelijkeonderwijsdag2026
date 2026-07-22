@@ -1,0 +1,962 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTACH;ENCODING=BASE64;VALUE=BINARY;X-FILENAME=invite.ics:QkVHSU46VkNBTEVOR
+	EFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcwLjkwNTQvL0VODQp
+	WRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVTVA0KQkVHSU46V
+	lRJTUVaT05FDQpUWklEOkV1cm9wZS9CcnVzc2Vscw0KWC1MSUMtTE9DQVRJT046RXVyb3BlL0J
+	ydXNzZWxzDQpCRUdJTjpEQVlMSUdIVA0KVFpPRkZTRVRGUk9NOiswMTAwDQpUWk9GRlNFVFRPO
+	iswMjAwDQpUWk5BTUU6R01UKzINCkRUU1RBUlQ6MTk3MDAzMjlUMDIwMDAwDQpSUlVMRTpGUkV
+	RPVlFQVJMWTtCWU1PTlRIPTM7QllEQVk9LTFTVQ0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOR
+	EFSRA0KVFpPRkZTRVRGUk9NOiswMjAwDQpUWk9GRlNFVFRPOiswMTAwDQpUWk5BTUU6R01UKzE
+	NCkRUU1RBUlQ6MTk3MDEwMjVUMDMwMDAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRIPTEwO
+	0JZREFZPS0xU1UNCkVORDpTVEFOREFSRA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQp
+	EVFNUQVJUO1RaSUQ9RXVyb3BlL0JydXNzZWxzOjIwMjYxMTI0VDA5MDAwMA0KRFRFTkQ7VFpJR
+	D1FdXJvcGUvQnJ1c3NlbHM6MjAyNjExMjRUMTcwMDAwDQpEVFNUQU1QOjIwMjYwMjA1VDA5NTc
+	xNVoNCk9SR0FOSVpFUjtDTj1UaW5la2UgWmFuZGJlcmdlbjptYWlsdG86dHphbmRiZXJnZW5AY
+	29uc29ydGl1bWJvLm5sDQpVSUQ6NDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGxAZ29vZ2xlLmN
+	vbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSV
+	FNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtYLU5VTS1HVUVTVFM9MDptYWlsdG86ZWJ
+	lbm9AY29uc29ydGl1bWJvLm5sDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFU
+	S1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPVJvZWx
+	pZW5rZSBCdWlrZW1hO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpyYnVpa2VtYUBjb25zb3J0aXVtY
+	m8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1B
+	BUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049RnJpZG8gUGVubmluZ3M7WC1OV
+	U0tR1VFU1RTPTA6bWFpbHRvOmZwZW5uaW5nc0Bjb25zb3J0aXVtYm8ubmwNCkFUVEVOREVFO0N
+	VVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDV
+	ElPTjtSU1ZQPQ0KIFRSVUU7Q049SmFjcXVlbGluZSBWcmVlZGVuYnVyZ2g7WC1OVU0tR1VFU1R
+	TPTA6bWFpbHRvOmp2cmVlZGVuYnVyZ2hAY29uc29ydA0KIGl1bWJvLm5sDQpBVFRFTkRFRTtDV
+	VRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1R
+	JT047UlNWUD0NCiBUUlVFO0NOPVJvYmJlcnQgSG91dHZlZW47WC1OVU0tR1VFU1RTPTA6bWFpb
+	HRvOnJob3V0dmVlbkBjb25zb3J0aXVtYm8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUF
+	MO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSV
+	UU7Q049TWFydGluZSBFZ2dlbjtYLU5VTS1HVUVTVFM9MDptYWlsdG86bWVnZ2VuQGNvbnNvcnR
+	pdW1iby5ubA0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBT
+	lQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1MZW9uYXJkIEhpbGJlcnM
+	7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmxoaWxiZXJzQGNvbnNvcnRpdW1iby5ubA0KQVRURU5ER
+	UU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFM
+	tQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1Ub20gV2VocmVucztYLU5VTS1HVUVTVFM9MDptYWlsd
+	G86dHdlaHJlbnNAY29uc29ydGl1bWJvLm5sDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDt
+	ST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO
+	0NOPU5hbmRhIEthc3BlcjtYLU5VTS1HVUVTVFM9MDptYWlsdG86bmthc3BlckBjb25zb3J0aXV
+	tYm8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO
+	1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049QmVydCBTbG90Ym9vbTtYLU5
+	VTS1HVUVTVFM9MDptYWlsdG86YnNsb3Rib29tQGNvbnNvcnRpdW1iby5ubA0KQVRURU5ERUU7Q
+	1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9QUNDRVBURUQ
+	7UlNWUD1UUlVFDQogO0NOPVRpbmVrZSBaYW5kYmVyZ2VuO1gtTlVNLUdVRVNUUz0wOm1haWx0b
+	zp0emFuZGJlcmdlbkBjb25zb3J0aXVtYm8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUF
+	MO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSV
+	UU7Q049UmllbiBCYWtrZXI7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOnJiYWtrZXJAY29uc29ydGl
+	1bWJvLm5sDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOV
+	DtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPVNvbmphIFNjaG9uZXZlbGQ
+	7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOnNzY2hvbmV2ZWxkQGNvbnNvcnRpdW1iby5ubA0KQVRUR
+	U5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkV
+	FRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1DaGFudGFsIEphbnNlbiAtIFZsb29zd2lqaztYL
+	U5VTS1HVUVTVFM9MDptYWlsdG86Y2phbnNlbkBjb25zb3J0aXVtDQogYm8ubmwNCkFUVEVOREV
+	FO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTL
+	UFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049S2xhYXMgVGVycHN0cmE7WC1OVU0tR1VFU1RTPTA6bWF
+	pbHRvOmt0ZXJwc3RyYUBjb25zb3J0aXVtYm8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEV
+	UFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFR
+	SVUU7Q049SHVnbyBIb29nZW5ib29tO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpoaG9vZ2VuYm9vb
+	UBjb25zb3J0aXVtYm8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVB
+	BUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049RXJ3aW4gU
+	GllcmlrO1gtTlVNLUdVRVNUUz0wOm1haWx0bzplcGllcmlrQGNvbnNvcnRpdW1iby5ubA0KQVR
+	URU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9T
+	kVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1IdWliZXJ0IFRldW4gZGUgUnVpanRlcjtYLU5
+	VTS1HVUVTVFM9MDptYWlsdG86aHRkZXJ1aWp0ZXJAY29uc29ydGl1DQogbWJvLm5sDQpBVFRFT
+	kRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUV
+	EUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPUhhcmFsZCBMZWV1d2lzO1gtTlVNLUdVRVNUUz0wO
+	m1haWx0bzpobGVldXdpc0Bjb25zb3J0aXVtYm8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVkl
+	EVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KI
+	FRSVUU7Q049V2lzc2UgV2lqbm1hYWxlbjtYLU5VTS1HVUVTVFM9MDptYWlsdG86d3dpam5tYWF
+	sZW5AY29uc29ydGl1bWJvLm5sDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFU
+	S1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPU1hcmp
+	vIEJyb2s7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOm1icm9rQGNvbnNvcnRpdW1iby5ubA0KQVRUR
+	U5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkV
+	FRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1KYW4gTWFubmVlO1gtTlVNLUdVRVNUUz0wOm1ha
+	Wx0bzpqbWFubmVlQGNvbnNvcnRpdW1iby5ubA0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw
+	7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVR
+	TtDTj1MZW9uaWUgS2lwcGVycztYLU5VTS1HVUVTVFM9MDptYWlsdG86bGtpcHBlcnNAY29uc29
+	ydGl1bWJvLm5sDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJU
+	EFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPUVzdGhlciBTY2hvb25
+	kZXJiZWVrO1gtTlVNLUdVRVNUUz0wOm1haWx0bzplc2Nob29uZGVyYmVla0Bjb25zb3J0aXUNC
+	iBtYm8ubmwNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5
+	UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049YS5ob3RAc3RpY2h0aW5nc
+	HJha3RpamtsZXJlbi5ubDtYLU5VTS1HVUVTVFM9MDptYWlsdG86YS5ob3RAc3RpY2h0aQ0KIG5
+	ncHJha3RpamtsZXJlbi5ubA0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtU
+	EFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1UZWFtIC0
+	gUmVnaWVncm9lcCBab3JnIGVuIFdlbHppam47WC1OVU0tR1VFU1RTPTA6bWFpbHRvOnJlZ2llZ
+	3JvZXB6DQogb3JnZW53ZWx6aWpuQGNvbnNvcnRpdW1iZXJvZXBzb25kZXJ3aWpzLm5sDQpYLU1
+	JQ1JPU09GVC1DRE8tT1dORVJBUFBUSUQ6MTgxMjMxNDkyMg0KQ1JFQVRFRDoyMDI2MDIwNVQwO
+	TU3MTJaDQpERVNDUklQVElPTjo8YSBocmVmPSJodHRwczovL2Rld2VyZWx0bHVudGVyZW4ubmw
+	vP3V0bV9zb3VyY2U9R29vZ2xlJmFtcFw7dXQNCiBtX21lZGl1bT1DUEMmYW1wXDt1dG1fdGVyb
+	T1kZSUyMHdlcmVsdCUyMGx1bnRlcmVuJmFtcFw7dXRtX2NhbXBhaWduPTEwMTQ0ODENCiAxNTE
+	mYW1wXDt1dG1fYWRncm91cD0xODU5OTAwMDk3MjAmYW1wXDt1dG1fY3JlYXRpdmU9NzY3OTkwO
+	DQ2MzcyJmFtcFw7Z2FkX3MNCiBvdXJjZT0xJmFtcFw7Z2FkX2NhbXBhaWduaWQ9MTAxNDQ4MTE
+	1MSZhbXBcO2dicmFpZD0wQUFBQUFEaGJaMk53MExWR096U1hVZzENCiBUaXc1dFJ4aU1PJmFtc
+	Fw7Z2NsaWQ9Q2owS0NRaUFuSkhNQmhEQUFSSXNBQnI3Yjg2TnpVRVkwS1VOYXdkRkJ4c3hDSGV
+	iT1JYamoNCiBOZ0Y4MnkwTnJ3d3g5WktNWlB4Wm9rQnV4d2FBaTRCRUFMd193Y0IiPmh0dHBzO
+	i8vZGV3ZXJlbHRsdW50ZXJlbi5ubC88L2E+DQpMQVNULU1PRElGSUVEOjIwMjYwMjA1VDA5NTc
+	xMloNCkxPQ0FUSU9OOkRlIFdlcmVsdCBMdW50ZXJlblwsIFdlc3Rob2ZmbGFhbiAyXCwgNjc0M
+	SBLSCBMdW50ZXJlblwsIE5lZGVybGFuZA0KU0VRVUVOQ0U6MA0KU1RBVFVTOkNPTkZJUk1FRA0
+	KU1VNTUFSWTpMYW5kZWxpamtlIE9uZGVyd2lqc2RhZyAyMDI2DQpUUkFOU1A6T1BBUVVFDQpCR
+	UdJTjpWQUxBUk0NCkFDVElPTjpESVNQTEFZDQpERVNDUklQVElPTjpUaGlzIGlzIGFuIGV2ZW5
+	0IHJlbWluZGVyDQpUUklHR0VSOi1QMERUMEgxME0wUw0KRU5EOlZBTEFSTQ0KRU5EOlZFVkVOV
+	A0KRU5EOlZDQUxFTkRBUg0K
+ATTENDEE;CN=ebeno@consortiumbo.nl;RSVP=TRUE:mailto:ebeno@consortiumbo.nl
+ATTENDEE;CN="Roelienke Buikema";RSVP=TRUE:mailto:rbuikema@consortiumbo.nl
+ATTENDEE;CN="Frido Pennings";RSVP=TRUE:mailto:fpennings@consortiumbo.nl
+ATTENDEE;CN="Jacqueline Vreedenburgh";RSVP=TRUE:mailto:jvreedenburgh@consor
+	tiumbo.nl
+ATTENDEE;CN="Robbert Houtveen";RSVP=TRUE:mailto:rhoutveen@consortiumbo.nl
+ATTENDEE;CN="Martine Eggen";RSVP=TRUE:mailto:meggen@consortiumbo.nl
+ATTENDEE;CN="Leonard Hilbers";RSVP=TRUE:mailto:lhilbers@consortiumbo.nl
+ATTENDEE;CN=twehrens;RSVP=TRUE:mailto:twehrens@consortiumbo.nl
+ATTENDEE;CN="Nanda Kasper";RSVP=TRUE:mailto:nkasper@consortiumbo.nl
+ATTENDEE;CN="Bert Slotboom";RSVP=TRUE:mailto:bslotboom@consortiumbo.nl
+ATTENDEE;CN="Rien Bakker";RSVP=TRUE:mailto:rbakker@consortiumbo.nl
+ATTENDEE;CN="Sonja Schoneveld";RSVP=TRUE:mailto:sschoneveld@consortiumbo.nl
+ATTENDEE;CN="Chantal Jansen - Vlooswijk";RSVP=TRUE:mailto:cjansen@consortiu
+	mbo.nl
+ATTENDEE;CN="Klaas Terpstra";RSVP=TRUE:mailto:kterpstra@consortiumbo.nl
+ATTENDEE;CN="Hugo Hoogenboom";RSVP=TRUE:mailto:hhoogenboom@consortiumbo.nl
+ATTENDEE;CN="Erwin Pierik";RSVP=TRUE:mailto:epierik@consortiumbo.nl
+ATTENDEE;CN="Huibert Teun de Ruijter";RSVP=TRUE:mailto:htderuijter@consorti
+	umbo.nl
+ATTENDEE;CN="Harald Leeuwis";RSVP=TRUE:mailto:hleeuwis@consortiumbo.nl
+ATTENDEE;CN="Wisse Wijnmaalen";RSVP=TRUE:mailto:wwijnmaalen@consortiumbo.nl
+ATTENDEE;CN="Marjo Brok";RSVP=TRUE:mailto:mbrok@consortiumbo.nl
+ATTENDEE;CN="Jan Mannee";RSVP=TRUE:mailto:jmannee@consortiumbo.nl
+ATTENDEE;CN="Leonie Kippers";RSVP=TRUE:mailto:lkippers@consortiumbo.nl
+ATTENDEE;CN="Esther Schoonderbeek";RSVP=TRUE:mailto:eschoonderbeek@consorti
+	umbo.nl
+ATTENDEE;CN="Amira Hot";RSVP=TRUE:mailto:A.Hot@stichtingpraktijkleren.nl
+ATTENDEE;CN="Team - Regiegroep Zorg en Welzijn";RSVP=TRUE:mailto:regiegroep
+	zorgenwelzijn@consortiumberoepsonderwijs.nl
+CLASS:PUBLIC
+CREATED:20260212T132509Z
+DESCRIPTION:Landelijke Onderwijsdag 2026\nhttps://dewereltlunteren.nl/\n  \
+	nhttps://dewereltlunteren.nl/ <https://eur06.safelinks.protection.outlook.
+	com/?url=https%3A%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps%253A%252F%252Fdewe
+	reltlunteren.nl%252F%253Futm_source%253DGoogle%2526utm_medium%253DCPC%2526
+	utm_term%253Dde%252520werelt%252520lunteren%2526utm_campaign%253D101448115
+	1%2526utm_adgroup%253D185990009720%2526utm_creative%253D767990846372%2526g
+	ad_source%253D1%2526gad_campaignid%253D1014481151%2526gbraid%253D0AAAAADhb
+	Z2Nw0LVGOzSXUg1Tiw5tRxiMO%2526gclid%253DCj0KCQiAnJHMBhDAARIsABr7b86NzUEY0K
+	UNawdFBxsxCHebORXjjNgF82y0Nrwwx9ZKMZPxZokBuxwaAi4BEALw_wcB%26sa%3DD%26sour
+	ce%3Dcalendar%26ust%3D1770717420000000%26usg%3DAOvVaw1H-AW6EEv4jTB32jtGoLy
+	P&data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed30
+	8de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C63905882255751193
+	0%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAi
+	OiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ypreo1HhBL
+	lj8McZkJPNmky0eKiRg7ZKEbctSzgCl28%3D&reserved=0> \n\nWanneer\n\ndinsdag 24
+	 nov 2026 ⋅ 09:00 – 17:00 (Midden-Europese tijd - Brussel)\n\nPlaats\n
+	\nDe Werelt Lunteren\, Westhofflaan 2\, 6741 KH Lunteren\, Nederland\nKaar
+	t bekijken <https://eur06.safelinks.protection.outlook.com/?url=https%3A%2
+	F%2Fwww.google.com%2Fmaps%2Fsearch%2FDe%2BWerelt%2BLunteren%2C%2BWesthoffl
+	aan%2B2%2C%2B6741%2BKH%2BLunteren%2C%2BNederland%3Fhl%3Dnl&data=05%7C02%7C
+	a.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cb
+	bc1b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557543574%7CUnknown%7CTWF
+	pbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOI
+	joiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=kOiD%2FDo9Afvngn%2FqUYueknX
+	EWTVn35njesLjUmu03RM%3D&reserved=0> \n\nGasten\n\nTineke Zandbergen <mailt
+	o:tzandbergen@consortiumbo.nl> \n- organisator\nEvelin Benö <mailto:ebeno
+	@consortiumbo.nl> \nRoelienke Buikema <mailto:rbuikema@consortiumbo.nl> \n
+	Frido Pennings <mailto:fpennings@consortiumbo.nl> \nJacqueline Vreedenburg
+	h <mailto:jvreedenburgh@consortiumbo.nl> \nRobbert Houtveen <mailto:rhoutv
+	een@consortiumbo.nl> \nMartine Eggen <mailto:meggen@consortiumbo.nl> \nLeo
+	nard Hilbers <mailto:lhilbers@consortiumbo.nl> \nTom Wehrens <mailto:twehr
+	ens@consortiumbo.nl> \nNanda Kasper <mailto:nkasper@consortiumbo.nl> \nBer
+	t Slotboom <mailto:bslotboom@consortiumbo.nl> \nRien Bakker <mailto:rbakke
+	r@consortiumbo.nl> \nSonja Schoneveld <mailto:sschoneveld@consortiumbo.nl>
+	 \nChantal Jansen - Vlooswijk <mailto:cjansen@consortiumbo.nl> \nKlaas Ter
+	pstra <mailto:kterpstra@consortiumbo.nl> \nHugo Hoogenboom <mailto:hhoogen
+	boom@consortiumbo.nl> \nErwin Pierik <mailto:epierik@consortiumbo.nl> \nHu
+	ibert Teun de Ruijter <mailto:htderuijter@consortiumbo.nl> \nHarald Leeuwi
+	s <mailto:hleeuwis@consortiumbo.nl> \nWisse Wijnmaalen <mailto:wwijnmaalen
+	@consortiumbo.nl> \nMarjo Brok <mailto:mbrok@consortiumbo.nl> \nJan Mannee
+	 <mailto:jmannee@consortiumbo.nl> \nLeonie Kippers <mailto:lkippers@consor
+	tiumbo.nl> \nEsther Schoonderbeek <mailto:eschoonderbeek@consortiumbo.nl> 
+	\na.hot@stichtingpraktijkleren.nl <mailto:a.hot@stichtingpraktijkleren.nl>
+	 \nTeam - Regiegroep Zorg en Welzijn <mailto:regiegroepzorgenwelzijn@conso
+	rtiumberoepsonderwijs.nl> \nAlle gastgegevens bekijken <https://eur06.safe
+	links.protection.outlook.com/?url=https%3A%2F%2Fcalendar.google.com%2Fcale
+	ndar%2Fevent%3Faction%3DVIEW%26eid%3DNDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgY
+	S5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26tok%3DMjcjdHphbmRiZXJnZW5AY29u
+	c29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYzU1MmJhNA%26c
+	tz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&data=05%7C02%7Ca.hot%40stichti
+	ngpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b768874dabaf
+	bc242ecb4571a1%7C0%7C0%7C639058822557564103%7CUnknown%7CTWFpbGZsb3d8eyJFbX
+	B0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldU
+	IjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=w8hVTf14%2BzuyC3Xb%2F2Py6fLxzAEuszNSBfrDBF
+	deca8%3D&reserved=0> \nReageren voor a.hot@stichtingpraktijkleren.nl <mail
+	to:a.hot@stichtingpraktijkleren.nl> \n<https://eur06.safelinks.protection.
+	outlook.com/?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fevent%3Fac
+	tion%3DRESPOND%26eid%3DNDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h
+	0aW5ncHJha3RpamtsZXJlbi5ubA%26rst%3D1%26tok%3DMjcjdHphbmRiZXJnZW5AY29uc29y
+	dGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYzU1MmJhNA%26ctz%3
+	DEurope%252FBrussels%26hl%3Dnl%26es%3D0&data=05%7C02%7Ca.hot%40stichtingpr
+	aktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b768874dabafbc24
+	2ecb4571a1%7C0%7C0%7C639058822557582246%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU
+	1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoy
+	fQ%3D%3D%7C0%7C%7C%7C&sdata=hIHCRNwGruzkQlXcvhAGSTWGA19QPP8%2B%2BK6O1HXY8x
+	c%3D&reserved=0> \nJa	\n<https://eur06.safelinks.protection.outlook.com/?u
+	rl=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fevent%3Faction%3DRESPOND
+	%26eid%3DNDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3Rpa
+	mtsZXJlbi5ubA%26rst%3D2%26tok%3DMjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sOD
+	MwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBr
+	ussels%26hl%3Dnl%26es%3D0&data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl
+	%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0
+	%7C0%7C639058822557617970%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUs
+	IlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7
+	C%7C%7C&sdata=1I1gUPK6XSwneZb1GIewGnBrKtVmi9vi4eReZMWimkM%3D&reserved=0> \
+	nNee	\n<https://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2F
+	calendar.google.com%2Fcalendar%2Fevent%3Faction%3DRESPOND%26eid%3DNDFjaXYz
+	aWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26r
+	st%3D3%26tok%3DMjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODd
+	mMWYwNjc0YTIxMmNlODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%
+	26es%3D0&data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f41
+	0aeed308de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C6390588225
+	57653209%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwM
+	CIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=XVX
+	cGmw8lA%2FmCVWw6LxyIzL%2FvhUbuv12MQ8lJVlHIj4%3D&reserved=0> \nMisschien	\n
+	<https://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcalenda
+	r.google.com%2Fcalendar%2Fevent%3Faction%3DVIEW%26eid%3DNDFjaXYzaWJkN2hjbG
+	ZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26tok%3DMjcjd
+	HphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJ
+	kODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&data=05%7C0
+	2%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7
+	C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557688640%7CUnknown%7
+	CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsI
+	kFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=I16H66uOYMBxy1PF0Tm83W8
+	u6GnXFFRPREXmLgatQb4%3D&reserved=0> \nMeer opties	\n\nUitnodiging van Goog
+	le Agenda <https://eur06.safelinks.protection.outlook.com/?url=https%3A%2F
+	%2Fcalendar.google.com%2Fcalendar%2F&data=05%7C02%7Ca.hot%40stichtingprakt
+	ijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b768874dabafbc242ec
+	b4571a1%7C0%7C0%7C639058822557724427%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hc
+	GkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%
+	3D%3D%7C0%7C%7C%7C&sdata=uXzp27%2F87RW%2Fgmf7bUXTg6bmJjW2NDrurMiM%2FpUWbiQ
+	%3D&reserved=0> \n\nJe krijgt deze e-mail omdat je deelnemer aan de afspra
+	ak bent.\n\nAls je deze uitnodiging doorstuurt\, kunnen alle ontvangers ee
+	n reactie naar de organisator sturen en aan de gastenlijst worden toegevoe
+	gd. Ze kunnen ook anderen uitnodigen (ongeacht hun eigen uitnodigingsstatu
+	s) of je reactiebericht aanpassen. Meer informatie <https://eur06.safelink
+	s.protection.outlook.com/?url=https%3A%2F%2Fsupport.google.com%2Fcalendar%
+	2Fanswer%2F37135%23forwarding&data=05%7C02%7Ca.hot%40stichtingpraktijklere
+	n.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1
+	%7C0%7C0%7C639058822557741255%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRy
+	dWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7
+	C0%7C%7C%7C&sdata=8ceRxk60luL%2F%2F%2FPR6K7FNNjd7EZpxirDzyjYV9UipXs%3D&res
+	erved=0> \n\n
+DTEND;TZID=Europe/Brussels:20261124T170000
+DTSTAMP:20260205T095715Z
+DTSTART;TZID=Europe/Brussels:20261124T090000
+LAST-MODIFIED:20260212T132509Z
+LOCATION:De Werelt Lunteren\, Westhofflaan 2\, 6741 KH Lunteren\, Nederland
+ORGANIZER;CN="Tineke Zandbergen":mailto:tzandbergen@consortiumbo.nl
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Landelijke Onderwijsdag 2026
+TRANSP:OPAQUE
+UID:41civ3ibd7hclfap907obkik0l@google.com
+X-ALT-DESC;FMTTYPE=text/html:<!doctype html><html xmlns="http://www.w3.org/
+	1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-m
+	icrosoft-com:office:office"><head>\n<title></title><!--[if !mso]><meta htt
+	p-equiv="X-UA-Compatible" content="IE=edge"><![endif]--><meta name="viewpo
+	rt" content="width=device-width\,initial-scale=1"><meta name="color-scheme
+	" content="light dark"><meta name="supported-color-schemes" content="light
+	 dark">\n    <style>\n      body\, html {\n        font-family: Roboto\, H
+	elvetica\, Arial\, sans-serif\;\n      }\n\n      body {\n        margin: 
+	0\;\n        padding: 0\;\n        -webkit-font-smoothing: antialiased\;\n
+	        -webkit-text-size-adjust: 100%\;\n        -ms-text-size-adjust: 10
+	0%\;\n      }\n\n      #outlook a {\n        padding: 0\;\n      }\n\n    
+	  .ReadMsgBody {\n        width: 100%\;\n      }\n\n      .ExternalClass {
+	\n        width: 100%\;\n      }\n\n      .ExternalClass * {\n        line
+	-height: 100%\;\n      }\n\n      table\,\n      td {\n        mso-table-l
+	space: 0pt\;\n        mso-table-rspace: 0pt\;\n      }\n\n      img {\n   
+	     border: 0\;\n        height: auto\;\n        line-height: 100%\;\n   
+	     outline: none\;\n        text-decoration: none\;\n        -ms-interpo
+	lation-mode: bicubic\;\n      }\n\n      p {\n        display: block\;\n  
+	      margin: 13px 0\;\n      }\n    </style>\n    <!--[if !mso]><!-->\n  
+	  <style>\n      @media only screen and (max-width:580px) {\n        @-ms-
+	viewport {\n          width: 320px\;\n        }\n\n        @viewport {\n  
+	        width: 320px\;\n        }\n      }\n    </style>\n    <!--<![endif
+	]-->\n    <!--[if mso]>\n          <xml>\n          <o:OfficeDocumentSetti
+	ngs>\n            <o:AllowPNG/>\n            <o:PixelsPerInch>96</o:Pixels
+	PerInch>\n          </o:OfficeDocumentSettings>\n          </xml>\n       
+	   <![endif]-->\n    <!--[if lte mso 11]>\n          <style>\n            
+	.outlook-group-fix { width:100% !important\; }\n          </style>\n    <!
+	[endif]-->\n\n    <!--[if !mso]><!-- -->\n  <style>body\, html {font-famil
+	y:Roboto\,Helvetica\,Arial\,sans-serif\;}@font-face {\n  font-family: 'Rob
+	oto'\;\n  font-style: normal\;\n  font-weight: 400\;\n  font-stretch: norm
+	al\;\n  src: url(//fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aG
+	LdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype')\;\n}\n@font-face {
+	\n  font-family: 'Roboto'\;\n  font-style: normal\;\n  font-weight: 500\;\
+	n  font-stretch: normal\;\n  src: url(//fonts.gstatic.com/s/roboto/v48/KFO
+	MCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype
+	')\;\n}\n@font-face {\n  font-family: 'Roboto'\;\n  font-style: normal\;\n
+	  font-weight: 700\;\n  font-stretch: normal\;\n  src: url(//fonts.gstatic
+	.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.
+	ttf) format('truetype')\;\n}\n@font-face {\n  font-family: 'Material Icons
+	 Extended'\;\n  font-style: normal\;\n  font-weight: 400\;\n  src: url(//f
+	onts.gstatic.com/s/materialiconsextended/v154/kJEjBvgX7BgnkSrUwT8UnLVc38Yy
+	dejYY-oE_LvM.ttf) format('truetype')\;\n}\n@font-face {\n  font-family: 'G
+	oogle Material Icons'\;\n  font-style: normal\;\n  font-weight: 400\;\n  s
+	rc: url(//fonts.gstatic.com/s/googlematerialicons/v144/Gw6kwdfw6UnXLJCcmaf
+	ZyFRXb3BL9rvi0QZG3g.otf) format('opentype')\;\n}\n\n.google-material-icons
+	 {\n  font-family: 'Google Material Icons'\;\n  font-weight: normal\;\n  f
+	ont-style: normal\;\n  font-size: 24px\;\n  line-height: 1\;\n  letter-spa
+	cing: normal\;\n  text-transform: none\;\n  display: inline-block\;\n  whi
+	te-space: nowrap\;\n  word-wrap: normal\;\n  direction: ltr\;\n}\n@font-fa
+	ce {\n  font-family: 'Google Material Icons Filled'\;\n  font-style: norma
+	l\;\n  font-weight: 400\;\n  src: url(//fonts.gstatic.com/s/googlematerial
+	iconsfilled/v118/WWXFlimHYg6HKI3TavMkbKdhBmDvgach8TVpeGsuueSZJH4.otf) form
+	at('opentype')\;\n}\n\n.google-material-icons-filled {\n  font-family: 'Go
+	ogle Material Icons Filled'\;\n  font-weight: normal\;\n  font-style: norm
+	al\;\n  font-size: 24px\;\n  line-height: 1\;\n  letter-spacing: normal\;\
+	n  text-transform: none\;\n  display: inline-block\;\n  white-space: nowra
+	p\;\n  word-wrap: normal\;\n  direction: ltr\;\n}\n@font-face {\n  font-fa
+	mily: 'Google Sans'\;\n  font-style: normal\;\n  font-weight: 400\;\n  src
+	: url(//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owps.ttf
+	) format('truetype')\;\n}\n@font-face {\n  font-family: 'Google Sans'\;\n 
+	 font-style: normal\;\n  font-weight: 500\;\n  src: url(//fonts.gstatic.co
+	m/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwM.ttf) format('truetype')
+	\;\n}\n@font-face {\n  font-family: 'Google Sans'\;\n  font-style: normal\
+	;\n  font-weight: 700\;\n  src: url(//fonts.gstatic.com/s/googlesans/v14/4
+	UabrENHsxJlGDuGo1OIlLV154tzCwM.ttf) format('truetype')\;\n}\n</style><!--<
+	![endif]-->\n      <style>\n        .body-container {\n          padding-l
+	eft: 16px\;\n          padding-right: 16px\;\n        }\n      </style>\n 
+	 \n      <style>\n        u+.body .body-container\,\n        body[data-out
+	look-cycle] .body-container\,\n        #MessageViewBody .body-container {\
+	n          padding-left: 0\;\n          padding-right: 0\;\n        }\n   
+	   </style>\n  \n    <style>\n      @media only screen and (min-width:580p
+	x) {\n        .column-per-37 {\n          width: 37% !important\;\n       
+	   max-width: 37%\;\n        }\n\n        .column-per-63 {\n          widt
+	h: 63% !important\;\n          max-width: 63%\;\n        }\n      }\n    <
+	/style>\n  \n    <style>\n      .appointment-buttons th {\n        display
+	: block\;\n        clear: both\;\n        float: left\;\n        margin-to
+	p: 12px\;\n      }\n\n      .appointment-buttons th a {\n        float: le
+	ft\;\n      }\n\n      #MessageViewBody .appointment-buttons th {\n       
+	margin-top: 24px\;\n      }\n    </style>\n  \n    <style>\n      @media o
+	nly screen and (max-width:580px) {\n        table.full-width-mobile {\n   
+	       width: 100% !important\;\n        }\n\n        td.full-width-mobile
+	 {\n          width: auto !important\;\n        }\n      }\n    </style>\n
+	    <style>\n      .main-container-inner\,\n      .info-bar-inner {\n     
+	   padding: 12px 16px !important\;\n      }\n\n      .main-column-table-lt
+	r {\n        padding-right: 0 !important\;\n      }\n\n      .main-column-
+	table-rtl {\n        padding-left: 0 !important\;\n      }\n\n      @media
+	 only screen and (min-width:580px) {\n        .main-container-inner {\n   
+	       padding: 24px 32px !important\;\n        }\n\n        .info-bar-inn
+	er {\n          padding: 12px 32px !important\;\n        }\n\n        .mai
+	n-column-table-ltr {\n          padding-right: 32px !important\;\n        
+	}\n\n        .main-column-table-rtl {\n          padding-left: 32px !impor
+	tant\;\n        }\n\n        .appointment-buttons th {\n          display:
+	 table-cell\;\n          clear: none\;\n        }\n      }\n\n      .prima
+	ry-text {\n        color: #3c4043 !important\;\n      }\n\n      .secondar
+	y-text\,\n      .phone-number a {\n        color: #70757a !important\;\n  
+	    }\n\n      .accent-text {\n        color: #1a73e8 !important\;\n      
+	}\n\n      .accent-text-dark {\n        color: #185abc !important\;\n     
+	 }\n\n      .grey-button-text\,\n      .attachment-chip a {\n        color
+	: #5f6368 !important\;\n      }\n\n      .primary-button {\n        backgr
+	ound-color: #1a73e8 !important\;\n      }\n\n      .primary-button-text {\
+	n        color: #fff !important\;\n      }\n\n      .underline-on-hover:ho
+	ver {\n        text-decoration: underline !important\;\n      }\n\n      .
+	grey-infobar-text {\n        color: #202124 !important\;\n      }\n\n     
+	 @media (prefers-color-scheme: dark) {\n        .primary-text:not([class^=
+	"x_"]) {\n          color: #e8eaed !important\;\n        }\n\n        .sec
+	ondary-text:not([class^="x_"])\,\n        .phone-number:not([class^="x_"])
+	 a {\n          color: #9aa0a6 !important\;\n        }\n\n        .grey-bu
+	tton-text:not([class^="x_"])\,\n        .attachment-chip:not([class^="x_"]
+	) a {\n          color: #bdc1c6 !important\;\n        }\n\n        .accent
+	-text:not([class^="x_"])\,\n        .hairline-button-text:not([class^="x_"
+	]) {\n          color: #8ab4f8 !important\;\n        }\n\n        .primary
+	-button:not([class^="x_"]) {\n          background-color: #8ab4f8 !importa
+	nt\;\n        }\n\n        .primary-button-text:not([class^="x_"]) {\n    
+	      color: #202124 !important\;\n        }\n      }\n    </style>\n    <
+	style>\n      @media (prefers-color-scheme: dark) {\n        .cse-banner:n
+	ot([class^="x_"]) {\n          background-color: #3c4043 !important\; /* G
+	oogle Grey 800 */\n        }\n\n        .encryption-icon:not([class^="x_"]
+	) {\n          /* WARNING: This causes the whole style tag to get stripped
+	 in Gmail. */\n          background-image: url('https://fonts.gstatic.com/
+	s/i/googlematerialiconsfilled/encrypted/v3/gm_grey200-24dp/2x/gm_filled_en
+	crypted_gm_grey200_24dp.png') !important\;\n        }\n      }\n    </styl
+	e>\n    <!--[if !mso]><!-->\n    <style>\n      .prevent-link a {\n       
+	 color: inherit !important\;\n        text-decoration: none !important\;\n
+	        font-size: inherit !important\;\n        font-family: inherit !imp
+	ortant\;\n        font-weight: inherit !important\;\n        line-height: 
+	inherit !important\;\n      }\n    </style>\n    <!--<![endif]-->\n\n    <
+	!--[if mso | IE]>\n      <style>\n        .main-container-inner {\n       
+	   padding: 24px 32px !important\;\n        }\n\n        .info-bar-inner {
+	\n          padding: 12px 32px !important\;\n        }\n\n        .cse-ban
+	ner .encryption-icon {\n          /* We use the IE workaround instead. */\
+	n          background-image: none !important\;\n        }\n\n        .cse-
+	banner .encryption-icon .ms-fallback {\n          display: block !importan
+	t\;\n        }\n\n        /* NB: Some MS clients ignore dark-scheme stylin
+	g and apply their own\, so there's nothing we can do to help there. */\n  
+	      @media (prefers-color-scheme: dark) {\n          .cse-banner:not([cl
+	ass^="x_"]) .encryption-icon .ms-fallback {\n            display: none !im
+	portant\;\n          }\n\n          .cse-banner:not([class^="x_"]) .encryp
+	tion-icon .ms-fallback-dark {\n            display: block !important\;\n  
+	        }\n        }\n      </style>\n    <![endif]-->\n  </head><body cla
+	ss="body"><span itemscope="" itemtype="http://schema.org/InformAction"><sp
+	an style="display:none" itemprop="about" itemscope="" itemtype="http://sch
+	ema.org/Person"><meta itemprop="description" content="Uitnodiging van Tine
+	ke Zandbergen"></span><span itemprop="object" itemscope="" itemtype="http:
+	//schema.org/Event"><meta itemprop="eventStatus" content="http://schema.or
+	g/EventScheduled"><span itemprop="publisher" itemscope="" itemtype="http:/
+	/schema.org/Organization"><meta itemprop="name" content="Google Calendar">
+	</span><meta itemprop="eventId/googleCalendar" content="41civ3ibd7hclfap90
+	7obkik0l"><span style="display: none\; font-size: 1px\; color: #fff\; line
+	-height: 1px\; height: 0\; max-height: 0\; width: 0\; max-width: 0\; opaci
+	ty: 0\; overflow: hidden\;" itemprop="name">Landelijke Onderwijsdag 2026</
+	span><meta itemprop="url" content="https://calendar.google.com/calendar/ev
+	ent?action=VIEW&amp\;eid=NDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY
+	2h0aW5ncHJha3RpamtsZXJlbi5ubA&amp\;tok=MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJ
+	vLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYzU1MmJhNA&amp\;ctz=Europ
+	e%2FBrussels&amp\;hl=nl&amp\;es=0"><span aria-hidden="true"><time itemprop
+	="startDate" datetime="20261124T080000Z"></time><time itemprop="endDate" d
+	atetime="20261124T160000Z"></time></span><div style="display: none\; font-
+	size: 1px\; color: #fff\; line-height: 1px\; height: 0\; max-height: 0\; w
+	idth: 0\; max-width: 0\; opacity: 0\; overflow: hidden\;">https://dewerelt
+	lunteren.nl/</div><table border="0" cellpadding="0" cellspacing="0" role="
+	presentation" align="center" style="width:100%\;" class="body-container"><
+	tbody><tr><td style="" class="" align="left"><!--[if mso | IE]><table bord
+	er="0" cellpadding="0" cellspacing="0" role="presentation"><tr><td height=
+	"16" style="height:16px\;"><![endif]--><div style="height:16px\;" aria-hid
+	den="true"> &nbsp\; </div><!--[if mso | IE]></td></tr></table><![endif]-->
+	<table border="0" cellpadding="0" cellspacing="0" role="presentation" alig
+	n="center" style="width:100%\;" class=""><tbody><tr><td style="border: sol
+	id 1px #dadce0\; border-radius: 8px\; direction: rtl\; font-size: 0\; padd
+	ing: 24px 32px\; text-align: left\; vertical-align: top\;" class="main-con
+	tainer-inner"><!--[if mso | IE]><table border="0" cellpadding="0" cellspac
+	ing="0" role="presentation"><tr><![endif]--><div class="" style="font-size
+	: 13px\; text-align: left\; direction: ltr\; display: inline-block\; verti
+	cal-align: top\; width: 100%\;overflow: hidden\; word-wrap: break-word\;">
+	<table border="0" cellpadding="0" cellspacing="0" role="presentation" widt
+	h="100%" class="main-column-table-ltr" style="padding-right: 32px\; paddin
+	g-left: 0\;\;table-layout: fixed\;"><tbody><tr><td class="main-column-td" 
+	style="padding:0\; vertical-align:top\;"><table border="0" cellpadding="0"
+	 cellspacing="0" role="presentation" width="100%" style="table-layout: fix
+	ed\;"><tr><td style="font-size: 0\; padding: 0\; text-align: left\; word-b
+	reak: break-word\;\;padding-bottom:24px\;"><div style="font-family: Roboto
+	\, sans-serif\;font-style: normal\; font-weight: 400\; font-size: 14px\; l
+	ine-height: 20px\; letter-spacing: 0.2px\;color: #3c4043\; text-decoration
+	: none\;" class="primary-text" role="presentation"><span><a href="https://
+	eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.google.com%2
+	Furl%3Fq%3Dhttps%253A%252F%252Fdewereltlunteren.nl%252F%253Futm_source%253
+	DGoogle%2526utm_medium%253DCPC%2526utm_term%253Dde%252520werelt%252520lunt
+	eren%2526utm_campaign%253D1014481151%2526utm_adgroup%253D185990009720%2526
+	utm_creative%253D767990846372%2526gad_source%253D1%2526gad_campaignid%253D
+	1014481151%2526gbraid%253D0AAAAADhbZ2Nw0LVGOzSXUg1Tiw5tRxiMO%2526gclid%253
+	DCj0KCQiAnJHMBhDAARIsABr7b86NzUEY0KUNawdFBxsxCHebORXjjNgF82y0Nrwwx9ZKMZPxZ
+	okBuxwaAi4BEALw_wcB%26sa%3DD%26source%3Dcalendar%26ust%3D1770717420000000%
+	26usg%3DAOvVaw1H-AW6EEv4jTB32jtGoLyP&amp\;data=05%7C02%7Ca.hot%40stichting
+	praktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b768874dabafbc
+	242ecb4571a1%7C0%7C0%7C639058822557511930%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0
+	eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIj
+	oyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=ypreo1HhBLlj8McZkJPNmky0eKiRg7ZKEbctSzg
+	Cl28%3D&amp\;reserved=0" originalsrc="https://www.google.com/url?q=https%3
+	A%2F%2Fdewereltlunteren.nl%2F%3Futm_source%3DGoogle%26utm_medium%3DCPC%26u
+	tm_term%3Dde%2520werelt%2520lunteren%26utm_campaign%3D1014481151%26utm_adg
+	roup%3D185990009720%26utm_creative%3D767990846372%26gad_source%3D1%26gad_c
+	ampaignid%3D1014481151%26gbraid%3D0AAAAADhbZ2Nw0LVGOzSXUg1Tiw5tRxiMO%26gcl
+	id%3DCj0KCQiAnJHMBhDAARIsABr7b86NzUEY0KUNawdFBxsxCHebORXjjNgF82y0Nrwwx9ZKM
+	ZPxZokBuxwaAi4BEALw_wcB&amp\;sa=D&amp\;source=calendar&amp\;ust=1770717420
+	000000&amp\;usg=AOvVaw1H-AW6EEv4jTB32jtGoLyP" target="_blank">https://dewe
+	reltlunteren.nl/</a></span><meta itemprop="description" content="https://d
+	ewereltlunteren.nl/"></div></td></tr><tr><td style="font-size: 0\; padding
+	: 0\; text-align: left\; word-break: break-word\;\;padding-bottom:24px\;">
+	<div style="font-family: Roboto\, sans-serif\;font-style: normal\; font-we
+	ight: 400\; font-size: 14px\; line-height: 20px\; letter-spacing: 0.2px\;c
+	olor: #3c4043\; text-decoration: none\;" class="primary-text" role="presen
+	tation"><span aria-hidden="true"><time itemprop="startDate" datetime="2026
+	1124T080000Z"></time><time itemprop="endDate" datetime="20261124T160000Z">
+	</time></span><table border="0" cellpadding="0" cellspacing="0" role="pres
+	entation" style="padding-bottom: 4px\;"><tr><td><h2 class="primary-text" s
+	tyle="font-size: 14px\;color: #3c4043\; text-decoration: none\;font-weight
+	: 700\;-webkit-font-smoothing: antialiased\;margin: 0\; padding: 0\;">Wann
+	eer</h2></td></tr></table><span>dinsdag 24 nov 2026 ⋅ 09:00 – 17:00 (M
+	idden-Europese tijd - Brussel)</span></div></td></tr><tr><td style="font-s
+	ize: 0\; padding: 0\; text-align: left\; word-break: break-word\;\;padding
+	-bottom:24px\;"><div style="font-family: Roboto\, sans-serif\;font-style: 
+	normal\; font-weight: 400\; font-size: 14px\; line-height: 20px\; letter-s
+	pacing: 0.2px\;color: #3c4043\; text-decoration: none\;" class="primary-te
+	xt" role="presentation"><table border="0" cellpadding="0" cellspacing="0" 
+	role="presentation" style="padding-bottom: 4px\;"><tr><td><h2 class="prima
+	ry-text" style="font-size: 14px\;color: #3c4043\; text-decoration: none\;f
+	ont-weight: 700\;-webkit-font-smoothing: antialiased\;margin: 0\; padding:
+	 0\;">Plaats</h2></td></tr></table><span itemprop="location" itemscope="" 
+	itemtype="http://schema.org/Place"><span itemprop="name" class="primary-te
+	xt notranslate" style="font-family: Roboto\, sans-serif\;font-style: norma
+	l\; font-weight: 400\; font-size: 14px\; line-height: 20px\; letter-spacin
+	g: 0.2px\;color: #3c4043\; text-decoration: none\;">De Werelt Lunteren\, W
+	esthofflaan 2\, 6741 KH Lunteren\, Nederland</span><br><a href="https://eu
+	r06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.google.com%2Fm
+	aps%2Fsearch%2FDe%2BWerelt%2BLunteren%2C%2BWesthofflaan%2B2%2C%2B6741%2BKH
+	%2BLunteren%2C%2BNederland%3Fhl%3Dnl&amp\;data=05%7C02%7Ca.hot%40stichting
+	praktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b768874dabafbc
+	242ecb4571a1%7C0%7C0%7C639058822557543574%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0
+	eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIj
+	oyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=kOiD%2FDo9Afvngn%2FqUYueknXEWTVn35njesL
+	jUmu03RM%3D&amp\;reserved=0" originalsrc="https://www.google.com/maps/sear
+	ch/De+Werelt+Lunteren\,+Westhofflaan+2\,+6741+KH+Lunteren\,+Nederland?hl=n
+	l" class="accent-text underline-on-hover" style="display: inline-block\;\;
+	color: #1a73e8\; text-decoration: none\;font-weight: 700\;" target="_blank
+	" itemprop="map">Kaart bekijken</a></span></div></td></tr><tr><td style="f
+	ont-size: 0\; padding: 0\; text-align: left\; word-break: break-word\;\;pa
+	dding-bottom:24px\;"><div style="font-family: Roboto\, sans-serif\;font-st
+	yle: normal\; font-weight: 400\; font-size: 14px\; line-height: 20px\; let
+	ter-spacing: 0.2px\;color: #3c4043\; text-decoration: none\;" class="prima
+	ry-text" role="presentation"><table border="0" cellpadding="0" cellspacing
+	="0" role="presentation" style="padding-bottom: 4px\;"><tr><td><h2 class="
+	primary-text" style="font-size: 14px\;color: #3c4043\; text-decoration: no
+	ne\;font-weight: 700\;-webkit-font-smoothing: antialiased\;margin: 0\; pad
+	ding: 0\;">Gasten</h2></td></tr></table><div style="padding-bottom: 4px\; 
+	text-align: left\;\;color: #3c4042\;"><div><span itemprop="attendee" items
+	cope="" itemtype="http://schema.org/Person"><span itemprop="name" class="n
+	otranslate"><a class="primary-text underline-on-hover" style="display: inl
+	ine-block\;\;color: #3c4043\; text-decoration: none\;" href="mailto:tzandb
+	ergen@consortiumbo.nl">Tineke Zandbergen</a></span><meta itemprop="email" 
+	content="tzandbergen@consortiumbo.nl"></span><span itemprop="organizer" it
+	emscope="" itemtype="http://schema.org/Person"><meta itemprop="name" conte
+	nt="Tineke Zandbergen"><meta itemprop="email" content="tzandbergen@consort
+	iumbo.nl"></span><span class="secondary-text" style="color: #70757a\; text
+	-decoration: none\;"> - organisator</span></div><div><span itemprop="atten
+	dee" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name
+	" class="notranslate"><a class="primary-text underline-on-hover" style="di
+	splay: inline-block\;\;color: #3c4043\; text-decoration: none\;" href="mai
+	lto:ebeno@consortiumbo.nl">Evelin Benö</a></span><meta itemprop="email" c
+	ontent="ebeno@consortiumbo.nl"></span><span class="secondary-text" style="
+	color: #70757a\; text-decoration: none\;"></span></div><div><span itemprop
+	="attendee" itemscope="" itemtype="http://schema.org/Person"><span itempro
+	p="name" class="notranslate"><a class="primary-text underline-on-hover" st
+	yle="display: inline-block\;\;color: #3c4043\; text-decoration: none\;" hr
+	ef="mailto:rbuikema@consortiumbo.nl">Roelienke Buikema</a></span><meta ite
+	mprop="email" content="rbuikema@consortiumbo.nl"></span><span class="secon
+	dary-text" style="color: #70757a\; text-decoration: none\;"></span></div><
+	div><span itemprop="attendee" itemscope="" itemtype="http://schema.org/Per
+	son"><span itemprop="name" class="notranslate"><a class="primary-text unde
+	rline-on-hover" style="display: inline-block\;\;color: #3c4043\; text-deco
+	ration: none\;" href="mailto:fpennings@consortiumbo.nl">Frido Pennings</a>
+	</span><meta itemprop="email" content="fpennings@consortiumbo.nl"></span><
+	span class="secondary-text" style="color: #70757a\; text-decoration: none\
+	;"></span></div><div><span itemprop="attendee" itemscope="" itemtype="http
+	://schema.org/Person"><span itemprop="name" class="notranslate"><a class="
+	primary-text underline-on-hover" style="display: inline-block\;\;color: #3
+	c4043\; text-decoration: none\;" href="mailto:jvreedenburgh@consortiumbo.n
+	l">Jacqueline Vreedenburgh</a></span><meta itemprop="email" content="jvree
+	denburgh@consortiumbo.nl"></span><span class="secondary-text" style="color
+	: #70757a\; text-decoration: none\;"></span></div><div><span itemprop="att
+	endee" itemscope="" itemtype="http://schema.org/Person"><span itemprop="na
+	me" class="notranslate"><a class="primary-text underline-on-hover" style="
+	display: inline-block\;\;color: #3c4043\; text-decoration: none\;" href="m
+	ailto:rhoutveen@consortiumbo.nl">Robbert Houtveen</a></span><meta itemprop
+	="email" content="rhoutveen@consortiumbo.nl"></span><span class="secondary
+	-text" style="color: #70757a\; text-decoration: none\;"></span></div><div>
+	<span itemprop="attendee" itemscope="" itemtype="http://schema.org/Person"
+	><span itemprop="name" class="notranslate"><a class="primary-text underlin
+	e-on-hover" style="display: inline-block\;\;color: #3c4043\; text-decorati
+	on: none\;" href="mailto:meggen@consortiumbo.nl">Martine Eggen</a></span><
+	meta itemprop="email" content="meggen@consortiumbo.nl"></span><span class=
+	"secondary-text" style="color: #70757a\; text-decoration: none\;"></span><
+	/div><div><span itemprop="attendee" itemscope="" itemtype="http://schema.o
+	rg/Person"><span itemprop="name" class="notranslate"><a class="primary-tex
+	t underline-on-hover" style="display: inline-block\;\;color: #3c4043\; tex
+	t-decoration: none\;" href="mailto:lhilbers@consortiumbo.nl">Leonard Hilbe
+	rs</a></span><meta itemprop="email" content="lhilbers@consortiumbo.nl"></s
+	pan><span class="secondary-text" style="color: #70757a\; text-decoration: 
+	none\;"></span></div><div><span itemprop="attendee" itemscope="" itemtype=
+	"http://schema.org/Person"><span itemprop="name" class="notranslate"><a cl
+	ass="primary-text underline-on-hover" style="display: inline-block\;\;colo
+	r: #3c4043\; text-decoration: none\;" href="mailto:twehrens@consortiumbo.n
+	l">Tom Wehrens</a></span><meta itemprop="email" content="twehrens@consorti
+	umbo.nl"></span><span class="secondary-text" style="color: #70757a\; text-
+	decoration: none\;"></span></div><div><span itemprop="attendee" itemscope=
+	"" itemtype="http://schema.org/Person"><span itemprop="name" class="notran
+	slate"><a class="primary-text underline-on-hover" style="display: inline-b
+	lock\;\;color: #3c4043\; text-decoration: none\;" href="mailto:nkasper@con
+	sortiumbo.nl">Nanda Kasper</a></span><meta itemprop="email" content="nkasp
+	er@consortiumbo.nl"></span><span class="secondary-text" style="color: #707
+	57a\; text-decoration: none\;"></span></div><div><span itemprop="attendee"
+	 itemscope="" itemtype="http://schema.org/Person"><span itemprop="name" cl
+	ass="notranslate"><a class="primary-text underline-on-hover" style="displa
+	y: inline-block\;\;color: #3c4043\; text-decoration: none\;" href="mailto:
+	bslotboom@consortiumbo.nl">Bert Slotboom</a></span><meta itemprop="email" 
+	content="bslotboom@consortiumbo.nl"></span><span class="secondary-text" st
+	yle="color: #70757a\; text-decoration: none\;"></span></div><div><span ite
+	mprop="attendee" itemscope="" itemtype="http://schema.org/Person"><span it
+	emprop="name" class="notranslate"><a class="primary-text underline-on-hove
+	r" style="display: inline-block\;\;color: #3c4043\; text-decoration: none\
+	;" href="mailto:rbakker@consortiumbo.nl">Rien Bakker</a></span><meta itemp
+	rop="email" content="rbakker@consortiumbo.nl"></span><span class="secondar
+	y-text" style="color: #70757a\; text-decoration: none\;"></span></div><div
+	><span itemprop="attendee" itemscope="" itemtype="http://schema.org/Person
+	"><span itemprop="name" class="notranslate"><a class="primary-text underli
+	ne-on-hover" style="display: inline-block\;\;color: #3c4043\; text-decorat
+	ion: none\;" href="mailto:sschoneveld@consortiumbo.nl">Sonja Schoneveld</a
+	></span><meta itemprop="email" content="sschoneveld@consortiumbo.nl"></spa
+	n><span class="secondary-text" style="color: #70757a\; text-decoration: no
+	ne\;"></span></div><div><span itemprop="attendee" itemscope="" itemtype="h
+	ttp://schema.org/Person"><span itemprop="name" class="notranslate"><a clas
+	s="primary-text underline-on-hover" style="display: inline-block\;\;color:
+	 #3c4043\; text-decoration: none\;" href="mailto:cjansen@consortiumbo.nl">
+	Chantal Jansen - Vlooswijk</a></span><meta itemprop="email" content="cjans
+	en@consortiumbo.nl"></span><span class="secondary-text" style="color: #707
+	57a\; text-decoration: none\;"></span></div><div><span itemprop="attendee"
+	 itemscope="" itemtype="http://schema.org/Person"><span itemprop="name" cl
+	ass="notranslate"><a class="primary-text underline-on-hover" style="displa
+	y: inline-block\;\;color: #3c4043\; text-decoration: none\;" href="mailto:
+	kterpstra@consortiumbo.nl">Klaas Terpstra</a></span><meta itemprop="email"
+	 content="kterpstra@consortiumbo.nl"></span><span class="secondary-text" s
+	tyle="color: #70757a\; text-decoration: none\;"></span></div><div><span it
+	emprop="attendee" itemscope="" itemtype="http://schema.org/Person"><span i
+	temprop="name" class="notranslate"><a class="primary-text underline-on-hov
+	er" style="display: inline-block\;\;color: #3c4043\; text-decoration: none
+	\;" href="mailto:hhoogenboom@consortiumbo.nl">Hugo Hoogenboom</a></span><m
+	eta itemprop="email" content="hhoogenboom@consortiumbo.nl"></span><span cl
+	ass="secondary-text" style="color: #70757a\; text-decoration: none\;"></sp
+	an></div><div><span itemprop="attendee" itemscope="" itemtype="http://sche
+	ma.org/Person"><span itemprop="name" class="notranslate"><a class="primary
+	-text underline-on-hover" style="display: inline-block\;\;color: #3c4043\;
+	 text-decoration: none\;" href="mailto:epierik@consortiumbo.nl">Erwin Pier
+	ik</a></span><meta itemprop="email" content="epierik@consortiumbo.nl"></sp
+	an><span class="secondary-text" style="color: #70757a\; text-decoration: n
+	one\;"></span></div><div><span itemprop="attendee" itemscope="" itemtype="
+	http://schema.org/Person"><span itemprop="name" class="notranslate"><a cla
+	ss="primary-text underline-on-hover" style="display: inline-block\;\;color
+	: #3c4043\; text-decoration: none\;" href="mailto:htderuijter@consortiumbo
+	.nl">Huibert Teun de Ruijter</a></span><meta itemprop="email" content="htd
+	eruijter@consortiumbo.nl"></span><span class="secondary-text" style="color
+	: #70757a\; text-decoration: none\;"></span></div><div><span itemprop="att
+	endee" itemscope="" itemtype="http://schema.org/Person"><span itemprop="na
+	me" class="notranslate"><a class="primary-text underline-on-hover" style="
+	display: inline-block\;\;color: #3c4043\; text-decoration: none\;" href="m
+	ailto:hleeuwis@consortiumbo.nl">Harald Leeuwis</a></span><meta itemprop="e
+	mail" content="hleeuwis@consortiumbo.nl"></span><span class="secondary-tex
+	t" style="color: #70757a\; text-decoration: none\;"></span></div><div><spa
+	n itemprop="attendee" itemscope="" itemtype="http://schema.org/Person"><sp
+	an itemprop="name" class="notranslate"><a class="primary-text underline-on
+	-hover" style="display: inline-block\;\;color: #3c4043\; text-decoration: 
+	none\;" href="mailto:wwijnmaalen@consortiumbo.nl">Wisse Wijnmaalen</a></sp
+	an><meta itemprop="email" content="wwijnmaalen@consortiumbo.nl"></span><sp
+	an class="secondary-text" style="color: #70757a\; text-decoration: none\;"
+	></span></div><div><span itemprop="attendee" itemscope="" itemtype="http:/
+	/schema.org/Person"><span itemprop="name" class="notranslate"><a class="pr
+	imary-text underline-on-hover" style="display: inline-block\;\;color: #3c4
+	043\; text-decoration: none\;" href="mailto:mbrok@consortiumbo.nl">Marjo B
+	rok</a></span><meta itemprop="email" content="mbrok@consortiumbo.nl"></spa
+	n><span class="secondary-text" style="color: #70757a\; text-decoration: no
+	ne\;"></span></div><div><span itemprop="attendee" itemscope="" itemtype="h
+	ttp://schema.org/Person"><span itemprop="name" class="notranslate"><a clas
+	s="primary-text underline-on-hover" style="display: inline-block\;\;color:
+	 #3c4043\; text-decoration: none\;" href="mailto:jmannee@consortiumbo.nl">
+	Jan Mannee</a></span><meta itemprop="email" content="jmannee@consortiumbo.
+	nl"></span><span class="secondary-text" style="color: #70757a\; text-decor
+	ation: none\;"></span></div><div><span itemprop="attendee" itemscope="" it
+	emtype="http://schema.org/Person"><span itemprop="name" class="notranslate
+	"><a class="primary-text underline-on-hover" style="display: inline-block\
+	;\;color: #3c4043\; text-decoration: none\;" href="mailto:lkippers@consort
+	iumbo.nl">Leonie Kippers</a></span><meta itemprop="email" content="lkipper
+	s@consortiumbo.nl"></span><span class="secondary-text" style="color: #7075
+	7a\; text-decoration: none\;"></span></div><div><span itemprop="attendee" 
+	itemscope="" itemtype="http://schema.org/Person"><span itemprop="name" cla
+	ss="notranslate"><a class="primary-text underline-on-hover" style="display
+	: inline-block\;\;color: #3c4043\; text-decoration: none\;" href="mailto:e
+	schoonderbeek@consortiumbo.nl">Esther Schoonderbeek</a></span><meta itempr
+	op="email" content="eschoonderbeek@consortiumbo.nl"></span><span class="se
+	condary-text" style="color: #70757a\; text-decoration: none\;"></span></di
+	v><div><span itemprop="attendee" itemscope="" itemtype="http://schema.org/
+	Person"><span itemprop="name" class="notranslate"><a class="primary-text u
+	nderline-on-hover" style="display: inline-block\;\;color: #3c4043\; text-d
+	ecoration: none\;" href="mailto:a.hot@stichtingpraktijkleren.nl">a.hot@sti
+	chtingpraktijkleren.nl</a></span><meta itemprop="email" content="a.hot@sti
+	chtingpraktijkleren.nl"></span><span class="secondary-text" style="color: 
+	#70757a\; text-decoration: none\;"></span></div><div><span itemprop="atten
+	dee" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name
+	" class="notranslate"><a class="primary-text underline-on-hover" style="di
+	splay: inline-block\;\;color: #3c4043\; text-decoration: none\;" href="mai
+	lto:regiegroepzorgenwelzijn@consortiumberoepsonderwijs.nl">Team - Regiegro
+	ep Zorg en Welzijn</a></span><meta itemprop="email" content="regiegroepzor
+	genwelzijn@consortiumberoepsonderwijs.nl"></span><span class="secondary-te
+	xt" style="color: #70757a\; text-decoration: none\;"></span></div></div><a
+	 href="https://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fc
+	alendar.google.com%2Fcalendar%2Fevent%3Faction%3DVIEW%26eid%3DNDFjaXYzaWJk
+	N2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26tok%3
+	DMjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxM
+	mNlODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&amp\;
+	data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308d
+	e649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557564103%
+	7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOi
+	JXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=w8hVTf1
+	4%2BzuyC3Xb%2F2Py6fLxzAEuszNSBfrDBFdeca8%3D&amp\;reserved=0" originalsrc="
+	https://calendar.google.com/calendar/event?action=VIEW&amp\;eid=NDFjaXYzaW
+	JkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&amp\;
+	tok=MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YT
+	IxMmNlODJkODYxYzU1MmJhNA&amp\;ctz=Europe%2FBrussels&amp\;hl=nl&amp\;es=0" 
+	style="display: inline-block\;\;color: #1a73e8\; text-decoration: none\;fo
+	nt-weight: 700\;" target="_blank" class="accent-text underline-on-hover">A
+	lle gastgegevens bekijken</a></div></td></tr><tr><td style="font-size: 0\;
+	 padding: 0\; text-align: left\; word-break: break-word\;\;padding-bottom:
+	0px\;"><div style="color: #3c4043\; text-decoration: none\;\;font-family: 
+	Roboto\, sans-serif\;font-size: 14px\; line-height: 20px\; mso-line-height
+	-rule: exactly\; text-align: left\;" class="primary-text"><div><span style
+	="font-weight: 700\;-webkit-font-smoothing: antialiased\;">Reageren</span>
+	<span class="secondary-text" style="color: #70757a\; text-decoration: none
+	\;"> voor <a class="secondary-text underline-on-hover" style="display: inl
+	ine-block\;\;color: #70757a\; text-decoration: none\;" href="mailto:a.hot@
+	stichtingpraktijkleren.nl">a.hot@stichtingpraktijkleren.nl</a></span></div
+	></div></td></tr><tr><td style="font-size: 0\; padding: 0\; text-align: le
+	ft\; word-break: break-word\;\;padding-bottom:16px\;"><div style="font-fam
+	ily: Roboto\, sans-serif\;font-size: 14px\; line-height: 20px\; mso-line-h
+	eight-rule: exactly\; text-align: left\;"><table border="0" cellpadding="0
+	" cellspacing="0" role="presentation" style="border-collapse: separate\;">
+	<tr><td style="padding-top: 8px\; padding-left: 0\; padding-right: 12px\;"
+	><!-- RSVP buttons --><table border="0" cellpadding="0" cellspacing="0" ro
+	le="presentation" style="border: solid 1px #dadce0\; border-radius: 16px\;
+	 border-collapse: separate\;font-family: 'Google Sans'\, Roboto\, sans-ser
+	if\;\;display: inline-block\;\;margin-right: 12px\; margin-left: 0\;"><tr>
+	<td align="center" vertical-align="middle" role="presentation"><span itemp
+	rop="potentialaction" itemscope="" itemtype="http://schema.org/RsvpAction"
+	><meta itemprop="attendance" content="http://schema.org/RsvpAttendance/Yes
+	"><span itemprop="handler" itemscope="" itemtype="http://schema.org/HttpAc
+	tionHandler"><link itemprop="method" href="http://schema.org/HttpRequestMe
+	thod/GET"><span style="color: #5f6367\;"><a href="https://eur06.safelinks.
+	protection.outlook.com/?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2
+	Fevent%3Faction%3DRESPOND%26eid%3DNDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5o
+	b3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26rst%3D1%26tok%3DMjcjdHphbmRiZXJnZ
+	W5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYzU1MmJ
+	hNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&amp\;data=05%7C02%7Ca.h
+	ot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1
+	b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557582246%7CUnknown%7CTWFpbG
+	Zsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoi
+	TWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=hIHCRNwGruzkQlXcvhAGSTWGA
+	19QPP8%2B%2BK6O1HXY8xc%3D&amp\;reserved=0" originalsrc="https://calendar.g
+	oogle.com/calendar/event?action=RESPOND&amp\;eid=NDFjaXYzaWJkN2hjbGZhcDkwN
+	29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&amp\;rst=1&amp\;tok=
+	MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMm
+	NlODJkODYxYzU1MmJhNA&amp\;ctz=Europe%2FBrussels&amp\;hl=nl&amp\;es=0" styl
+	e="font-weight: 400\;font-family: 'Google Sans'\, Roboto\, sans-serif\;col
+	or: #5f6368\; font-size: 14px\; line-height: 120%\; mso-line-height-rule: 
+	exactly\; margin: 0\; text-decoration: none\; text-transform: none\;" clas
+	s="grey-button-text" itemprop="url" target="_blank"><table border="0" cell
+	padding="0" cellspacing="0" role="presentation"><tr><td align="center" rol
+	e="presentation" valign="middle" style="padding: 6px 0\; padding-left: 16p
+	x\; padding-right: 12px\; white-space: nowrap\;"><!--[if mso]><a href="htt
+	ps://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcalendar.go
+	ogle.com%2Fcalendar%2Fevent%3Faction%3DRESPOND%26eid%3DNDFjaXYzaWJkN2hjbGZ
+	hcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26rst%3D1%26to
+	k%3DMjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YT
+	IxMmNlODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&am
+	p\;data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed3
+	08de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C6390588225575999
+	93%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlA
+	iOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=jHnW
+	uHx9ys50JbU%2BxzDXkt4QxwMOliGsmCcs7KhQHQE%3D&amp\;reserved=0" originalSrc=
+	"https://calendar.google.com/calendar/event?action=RESPOND&eid=NDFjaXYzaWJ
+	kN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&rst=1&
+	tok=MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YT
+	IxMmNlODJkODYxYzU1MmJhNA&ctz=Europe%2FBrussels&hl=nl&es=0" class="grey-but
+	ton-text" itemprop="url" target="_blank"><![endif]--><span class="grey-but
+	ton-text" style="font-weight: 400\;font-family: 'Google Sans'\, Roboto\, s
+	ans-serif\;color: #5f6368\; font-size: 14px\; line-height: 120%\; mso-line
+	-height-rule: exactly\; margin: 0\; text-decoration: none\; text-transform
+	: none\;">Ja</span><!--[if mso]></a><![endif]--></td></tr></table></a></sp
+	an></span></span></td><td align="center" vertical-align="middle" role="pre
+	sentation" style="border-left: solid 1px #dadce0\; border-right: solid 1px
+	 #dadce0\;"><span itemprop="potentialaction" itemscope="" itemtype="http:/
+	/schema.org/RsvpAction"><meta itemprop="attendance" content="http://schema
+	.org/RsvpAttendance/No"><span itemprop="handler" itemscope="" itemtype="ht
+	tp://schema.org/HttpActionHandler"><link itemprop="method" href="http://sc
+	hema.org/HttpRequestMethod/GET"><span style="color: #5f6367\;"><a href="ht
+	tps://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcalendar.g
+	oogle.com%2Fcalendar%2Fevent%3Faction%3DRESPOND%26eid%3DNDFjaXYzaWJkN2hjbG
+	ZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26rst%3D2%26t
+	ok%3DMjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0Y
+	TIxMmNlODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&a
+	mp\;data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed
+	308de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557617
+	970%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl
+	AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=1I1
+	gUPK6XSwneZb1GIewGnBrKtVmi9vi4eReZMWimkM%3D&amp\;reserved=0" originalsrc="
+	https://calendar.google.com/calendar/event?action=RESPOND&amp\;eid=NDFjaXY
+	zaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&am
+	p\;rst=2&amp\;tok=MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUy
+	ODdmMWYwNjc0YTIxMmNlODJkODYxYzU1MmJhNA&amp\;ctz=Europe%2FBrussels&amp\;hl=
+	nl&amp\;es=0" style="font-weight: 400\;font-family: 'Google Sans'\, Roboto
+	\, sans-serif\;color: #5f6368\; font-size: 14px\; line-height: 120%\; mso-
+	line-height-rule: exactly\; margin: 0\; text-decoration: none\; text-trans
+	form: none\;" class="grey-button-text" itemprop="url" target="_blank"><tab
+	le border="0" cellpadding="0" cellspacing="0" role="presentation"><tr><td 
+	align="center" role="presentation" valign="middle" style="padding: 6px 12p
+	x\; white-space: nowrap\;"><!--[if mso]><a href="https://eur06.safelinks.p
+	rotection.outlook.com/?url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2F
+	event%3Faction%3DRESPOND%26eid%3DNDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob
+	3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26rst%3D2%26tok%3DMjcjdHphbmRiZXJnZW
+	5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYzU1MmJh
+	NA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&amp\;data=05%7C02%7Ca.ho
+	t%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b
+	768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557635920%7CUnknown%7CTWFpbGZ
+	sb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiT
+	WFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=A7lBHDp5mEX181vvJskMLHxP%2
+	F7pr%2BOW5WwIo1QLOpA8%3D&amp\;reserved=0" originalSrc="https://calendar.go
+	ogle.com/calendar/event?action=RESPOND&eid=NDFjaXYzaWJkN2hjbGZhcDkwN29ia2l
+	rMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&rst=2&tok=MjcjdHphbmRiZXJn
+	ZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYzU1Mm
+	JhNA&ctz=Europe%2FBrussels&hl=nl&es=0" class="grey-button-text" itemprop="
+	url" target="_blank"><![endif]--><span class="grey-button-text" style="fon
+	t-weight: 400\;font-family: 'Google Sans'\, Roboto\, sans-serif\;color: #5
+	f6368\; font-size: 14px\; line-height: 120%\; mso-line-height-rule: exactl
+	y\; margin: 0\; text-decoration: none\; text-transform: none\;">Nee</span>
+	<!--[if mso]></a><![endif]--></td></tr></table></a></span></span></span></
+	td><td align="center" vertical-align="middle" role="presentation"><span it
+	emprop="potentialaction" itemscope="" itemtype="http://schema.org/RsvpActi
+	on"><meta itemprop="attendance" content="http://schema.org/RsvpAttendance/
+	Maybe"><span itemprop="handler" itemscope="" itemtype="http://schema.org/H
+	ttpActionHandler"><link itemprop="method" href="http://schema.org/HttpRequ
+	estMethod/GET"><span style="color: #5f6367\;"><a href="https://eur06.safel
+	inks.protection.outlook.com/?url=https%3A%2F%2Fcalendar.google.com%2Fcalen
+	dar%2Fevent%3Faction%3DRESPOND%26eid%3DNDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGw
+	gYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26rst%3D3%26tok%3DMjcjdHphbmRi
+	ZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNlODJkODYxYz
+	U1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&amp\;data=05%7C02%
+	7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4
+	cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557653209%7CUnknown%7CT
+	WFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkF
+	OIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=XVXcGmw8lA%2FmCVWw6L
+	xyIzL%2FvhUbuv12MQ8lJVlHIj4%3D&amp\;reserved=0" originalsrc="https://calen
+	dar.google.com/calendar/event?action=RESPOND&amp\;eid=NDFjaXYzaWJkN2hjbGZh
+	cDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&amp\;rst=3&amp\
+	;tok=MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0Y
+	TIxMmNlODJkODYxYzU1MmJhNA&amp\;ctz=Europe%2FBrussels&amp\;hl=nl&amp\;es=0"
+	 style="font-weight: 400\;font-family: 'Google Sans'\, Roboto\, sans-serif
+	\;color: #5f6368\; font-size: 14px\; line-height: 120%\; mso-line-height-r
+	ule: exactly\; margin: 0\; text-decoration: none\; text-transform: none\;"
+	 class="grey-button-text" itemprop="url" target="_blank"><table border="0"
+	 cellpadding="0" cellspacing="0" role="presentation"><tr><td align="center
+	" role="presentation" valign="middle" style="padding: 6px 0\; padding-left
+	: 12px\; padding-right: 16px\; white-space: nowrap\;"><!--[if mso]><a href
+	="https://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcalend
+	ar.google.com%2Fcalendar%2Fevent%3Faction%3DRESPOND%26eid%3DNDFjaXYzaWJkN2
+	hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26rst%3D3
+	%26tok%3DMjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwN
+	jc0YTIxMmNlODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3
+	D0&amp\;data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410
+	aeed308de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C63905882255
+	7670961%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMC
+	IsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata
+	=qGOCXHrHycQG0BRssbDQHcTGEu1XsWLpKx%2F0aN%2F3GJE%3D&amp\;reserved=0" origi
+	nalSrc="https://calendar.google.com/calendar/event?action=RESPOND&eid=NDFj
+	aXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA
+	&rst=3&tok=MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWY
+	wNjc0YTIxMmNlODJkODYxYzU1MmJhNA&ctz=Europe%2FBrussels&hl=nl&es=0" class="g
+	rey-button-text" itemprop="url" target="_blank"><![endif]--><span class="g
+	rey-button-text" style="font-weight: 400\;font-family: 'Google Sans'\, Rob
+	oto\, sans-serif\;color: #5f6368\; font-size: 14px\; line-height: 120%\; m
+	so-line-height-rule: exactly\; margin: 0\; text-decoration: none\; text-tr
+	ansform: none\;">Misschien</span><!--[if mso]></a><![endif]--></td></tr></
+	table></a></span></span></span></td></tr></table><!-- More options --><a h
+	ref="https://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcal
+	endar.google.com%2Fcalendar%2Fevent%3Faction%3DVIEW%26eid%3DNDFjaXYzaWJkN2
+	hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA%26tok%3DM
+	jcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmN
+	lODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26es%3D0&amp\;da
+	ta=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de6
+	49cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822557688640%7C
+	Unknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJX
+	aW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=I16H66uOY
+	MBxy1PF0Tm83W8u6GnXFFRPREXmLgatQb4%3D&amp\;reserved=0" originalsrc="https:
+	//calendar.google.com/calendar/event?action=VIEW&amp\;eid=NDFjaXYzaWJkN2hj
+	bGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&amp\;tok=Mj
+	cjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YTIxMmNl
+	ODJkODYxYzU1MmJhNA&amp\;ctz=Europe%2FBrussels&amp\;hl=nl&amp\;es=0" style=
+	"display: inline-block\;\;font-weight: 400\;font-family: 'Google Sans'\, R
+	oboto\, sans-serif\;color: #5f6368\; font-size: 14px\; line-height: 120%\;
+	 mso-line-height-rule: exactly\; margin: 0\; text-decoration: none\; text-
+	transform: none\;" class="grey-button-text" target="_blank"><table border=
+	"0" cellpadding="0" cellspacing="0" role="presentation" style="border: sol
+	id 1px #dadce0\; border-radius: 16px\; border-collapse: separate\;font-fam
+	ily: 'Google Sans'\, Roboto\, sans-serif\;"><tr><td align="center" vertica
+	l-align="middle" role="presentation" style="padding: 6px 0\; padding-left:
+	 16px\; padding-right: 12px\; white-space: nowrap\;\;color: #5f6367\;"><!-
+	-[if mso]><a href="https://eur06.safelinks.protection.outlook.com/?url=htt
+	ps%3A%2F%2Fcalendar.google.com%2Fcalendar%2Fevent%3Faction%3DVIEW%26eid%3D
+	NDFjaXYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi
+	5ubA%26tok%3DMjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmM
+	WYwNjc0YTIxMmNlODJkODYxYzU1MmJhNA%26ctz%3DEurope%252FBrussels%26hl%3Dnl%26
+	es%3D0&amp\;data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9
+	f410aeed308de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C6390588
+	22557706021%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMD
+	AwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;s
+	data=dLm3mJUECb5i%2BuFwk9jgdPEEch5ZlN7nBMDgdyjxqe0%3D&amp\;reserved=0" ori
+	ginalSrc="https://calendar.google.com/calendar/event?action=VIEW&eid=NDFja
+	XYzaWJkN2hjbGZhcDkwN29ia2lrMGwgYS5ob3RAc3RpY2h0aW5ncHJha3RpamtsZXJlbi5ubA&
+	tok=MjcjdHphbmRiZXJnZW5AY29uc29ydGl1bWJvLm5sODMwNGNjNDkwMjUyODdmMWYwNjc0YT
+	IxMmNlODJkODYxYzU1MmJhNA&ctz=Europe%2FBrussels&hl=nl&es=0" class="grey-but
+	ton-text" target="_blank"><![endif]--><span class="grey-button-text" style
+	="font-weight: 400\;font-family: 'Google Sans'\, Roboto\, sans-serif\;colo
+	r: #5f6368\; font-size: 14px\; line-height: 120%\; mso-line-height-rule: e
+	xactly\; margin: 0\; text-decoration: none\; text-transform: none\;">Meer 
+	opties</span><!--[if mso]></a><![endif]--></td></tr></table></a></td></tr>
+	</table></div></td></tr></table></td></tr></tbody></table></div><!--[if ms
+	o | IE]></tr></table><![endif]--></td></tr></tbody></table><table border="
+	0" cellpadding="0" cellspacing="0" role="presentation" align="center" styl
+	e="width:100%\;" class=""><tbody><tr><td style="font-size: 0\; padding: 0\
+	; text-align: left\; word-break: break-word\;\;padding:4px 12px\;" class="
+	" align="left"><div class="secondary-text" style="color: #70757a\; text-de
+	coration: none\;font-family: Roboto\, sans-serif\;font-size: 12px\; line-h
+	eight: 16px\; mso-line-height-rule: exactly\; text-align: left\;"><p>Uitno
+	diging van <a href="https://eur06.safelinks.protection.outlook.com/?url=ht
+	tps%3A%2F%2Fcalendar.google.com%2Fcalendar%2F&amp\;data=05%7C02%7Ca.hot%40
+	stichtingpraktijkleren.nl%7Cfdf0c9a78a9f410aeed308de649cf186%7C4cbbc1b7688
+	74dabafbc242ecb4571a1%7C0%7C0%7C639058822557724427%7CUnknown%7CTWFpbGZsb3d
+	8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpb
+	CIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sdata=uXzp27%2F87RW%2Fgmf7bUXTg6bmJj
+	W2NDrurMiM%2FpUWbiQ%3D&amp\;reserved=0" originalsrc="https://calendar.goog
+	le.com/calendar/" class="accent-text underline-on-hover" style="font-famil
+	y: Roboto\, sans-serif\;font-size: 12px\; line-height: 16px\; mso-line-hei
+	ght-rule: exactly\;\;color: #1a73e8\; text-decoration: none\;" target="_bl
+	ank">Google Agenda</a></p><p>Je krijgt deze e-mail omdat je deelnemer aan 
+	de afspraak bent.</p><p>Als je deze uitnodiging doorstuurt\, kunnen alle o
+	ntvangers een reactie naar de organisator sturen en aan de gastenlijst wor
+	den toegevoegd. Ze kunnen ook anderen uitnodigen (ongeacht hun eigen uitno
+	digingsstatus) of je reactiebericht aanpassen. <a class="accent-text under
+	line-on-hover" style="font-family: Roboto\, sans-serif\;font-size: 12px\; 
+	line-height: 16px\; mso-line-height-rule: exactly\;\;color: #1a73e8\; text
+	-decoration: none\;" href="https://eur06.safelinks.protection.outlook.com/
+	?url=https%3A%2F%2Fsupport.google.com%2Fcalendar%2Fanswer%2F37135%23forwar
+	ding&amp\;data=05%7C02%7Ca.hot%40stichtingpraktijkleren.nl%7Cfdf0c9a78a9f4
+	10aeed308de649cf186%7C4cbbc1b768874dabafbc242ecb4571a1%7C0%7C0%7C639058822
+	557741255%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAw
+	MCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp\;sda
+	ta=8ceRxk60luL%2F%2F%2FPR6K7FNNjd7EZpxirDzyjYV9UipXs%3D&amp\;reserved=0" o
+	riginalsrc="https://support.google.com/calendar/answer/37135#forwarding">M
+	eer informatie</a></p></div></td></tr></tbody></table></td></tr></tbody></
+	table></span></span></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
