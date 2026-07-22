@@ -416,6 +416,16 @@ ul{margin:0 0 1rem;padding-left:1.1rem}
 .session-more-soon{grid-column:1/-1;text-align:center;padding:2.4rem 1.4rem;border:2px dashed var(--line);border-radius:var(--r-lg);color:var(--muted)}
 .session-more-soon strong{color:var(--ink);display:block;font-family:var(--font-head);font-size:1.05rem;margin-bottom:.3rem}
 
+/* Practorpitches: same card system, plus a partner/logo block to flag external organisations */
+.session-card__visual--pitch{background:var(--forest-deep);color:#fff}
+.session-card__partner{display:flex;align-items:center;gap:.7rem;margin-bottom:.1rem}
+.session-card__logo{flex:none;width:38px;height:38px;border-radius:50%;background:var(--ink);color:#fff;
+  display:grid;place-items:center;font-family:var(--font-head);font-weight:800;font-size:.82rem;letter-spacing:.02em;overflow:hidden}
+.session-card__logo img{width:100%;height:100%;object-fit:contain}
+.session-card__partner-text{display:flex;flex-direction:column;line-height:1.25}
+.session-card__partner-name{font-family:var(--font-head);font-weight:800;font-size:.92rem;color:var(--ink)}
+.session-card__partner-tag{font-size:.74rem;color:var(--muted)}
+
 @media (max-width:980px){
   .session-grid{grid-template-columns:repeat(2,1fr)}
 }
