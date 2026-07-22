@@ -118,6 +118,23 @@
     setInterval(tick, 1000);
   }
 
+  /* Session filters */
+  var sessionFilters = Array.prototype.slice.call(document.querySelectorAll('[data-session-filter]'));
+  var sessionCards = Array.prototype.slice.call(document.querySelectorAll('[data-session-type]'));
+  if (sessionFilters.length && sessionCards.length) {
+    sessionFilters.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        sessionFilters.forEach(function (b) { b.classList.remove('is-active'); });
+        this.classList.add('is-active');
+        var type = this.getAttribute('data-session-filter');
+        sessionCards.forEach(function (card) {
+          var show = type === 'alle' || card.getAttribute('data-session-type') === type;
+          card.style.display = show ? '' : 'none';
+        });
+      });
+    });
+  }
+
   /* Year in footer */
   var years = document.querySelectorAll('[data-year]');
   for (var yy = 0; yy < years.length; yy++) {

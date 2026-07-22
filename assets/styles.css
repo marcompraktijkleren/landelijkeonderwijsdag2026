@@ -370,6 +370,60 @@ ul{margin:0 0 1rem;padding-left:1.1rem}
 .card:nth-child(4n+3) .ico{background:var(--lime);color:var(--ink)}
 .card:nth-child(4n+4) .ico{background:var(--yellow);color:var(--ink)}
 
+/* ---------- Sessieoverzicht ---------- */
+.session-filters{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:2rem}
+.session-filter{font-family:var(--font-head);font-weight:700;font-size:.9rem;padding:.65rem 1.2rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--white);color:var(--ink-soft);cursor:pointer;transition:.25s var(--ease);white-space:nowrap}
+.session-filter:hover{border-color:var(--ink);color:var(--ink)}
+.session-filter.is-active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.session-filter .count{opacity:.65;font-weight:600;margin-left:.4em}
+
+.session-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.session-card{background:var(--white);border-radius:var(--r-lg);box-shadow:var(--sh-sm);border:1px solid var(--line);
+  display:flex;flex-direction:column;overflow:hidden;transition:transform .35s var(--ease),box-shadow .35s var(--ease);position:relative}
+.session-card:hover{transform:translateY(-5px);box-shadow:var(--sh)}
+.session-card__visual{height:58px;display:flex;align-items:center;padding:0 1.4rem;flex:none}
+.session-card__visual svg{width:26px;height:26px}
+.session-card__visual--presentatie{background:var(--blue);color:#fff}
+.session-card__visual--workshop{background:var(--pink);color:#fff}
+.session-card__visual--gesprekstafel{background:var(--lime);color:var(--ink)}
+.session-card__visual--worldcafe{background:var(--yellow);color:var(--ink)}
+.session-card__body{padding:1.3rem 1.4rem 1.5rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.session-badge{align-self:flex-start;font-family:var(--font-head);font-weight:700;font-size:.72rem;letter-spacing:.05em;
+  text-transform:uppercase;padding:.3rem .7rem;border-radius:999px}
+.session-badge--presentatie{background:rgba(57,185,236,.14);color:var(--blue-800)}
+.session-badge--workshop{background:rgba(231,43,118,.12);color:var(--pink)}
+.session-badge--gesprekstafel{background:rgba(204,214,38,.24);color:#5c6300}
+.session-badge--worldcafe{background:rgba(242,179,0,.16);color:#8a6300}
+.session-card h3{font-family:var(--font-head);font-weight:800;font-size:1.05rem;line-height:1.3;margin:0}
+.session-card .subtitle{font-size:.85rem;color:var(--muted);margin:-.35rem 0 0}
+.session-card__teaser{font-size:.92rem;color:var(--ink-soft);margin:0}
+.session-card__meta{display:flex;flex-wrap:wrap;gap:.5rem .8rem;font-size:.8rem;color:var(--muted);margin-top:auto;padding-top:.3rem}
+.session-card__meta span{display:inline-flex;align-items:center}
+.session-card__more{margin-top:.3rem;border-top:1px solid var(--line);padding-top:.65rem}
+.session-card__more summary{cursor:pointer;font-family:var(--font-head);font-weight:700;font-size:.85rem;color:var(--forest);list-style:none}
+.session-card__more summary::-webkit-details-marker{display:none}
+.session-card__more summary::after{content:"+";float:right;font-size:1.15rem;line-height:1}
+.session-card__more[open] summary::after{content:"–"}
+.session-card__more p{font-size:.92rem;color:var(--ink-soft);margin:.75rem 0}
+.session-card__more dl{margin:.75rem 0 0;font-size:.86rem;display:grid;gap:.15rem 0}
+.session-card__more dt{font-family:var(--font-head);font-weight:700;color:var(--ink);margin-top:.5rem}
+.session-card__more dd{margin:0 0 .1rem;color:var(--ink-soft)}
+.session-card__tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:.7rem 0 0}
+.session-card__tags span{background:var(--cream-2);border-radius:999px;padding:.25rem .65rem;font-size:.74rem;color:var(--ink-soft)}
+.session-card--pending::before{content:"Nog niet definitief";position:absolute;top:.9rem;right:.9rem;background:var(--ink);color:#fff;
+  font-family:var(--font-head);font-weight:700;font-size:.66rem;text-transform:uppercase;letter-spacing:.04em;padding:.3rem .6rem;border-radius:999px;z-index:2}
+.session-more-soon{grid-column:1/-1;text-align:center;padding:2.4rem 1.4rem;border:2px dashed var(--line);border-radius:var(--r-lg);color:var(--muted)}
+.session-more-soon strong{color:var(--ink);display:block;font-family:var(--font-head);font-size:1.05rem;margin-bottom:.3rem}
+
+@media (max-width:980px){
+  .session-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:720px){
+  .session-grid{grid-template-columns:1fr}
+  .session-filters{overflow-x:auto;flex-wrap:nowrap;padding-bottom:.4rem;margin-inline:-1.2rem;padding-inline:1.2rem}
+}
+
 /* ---------- Reveal animation ---------- */
 .js .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
 .js .reveal.in{opacity:1;transform:none}
