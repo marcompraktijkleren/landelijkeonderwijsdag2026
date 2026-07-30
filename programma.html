@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add("js");</script>
-<link rel="stylesheet" href="assets/styles.css?v=22">
+<link rel="stylesheet" href="assets/styles.css?v=23">
 </head>
 <body>
 
@@ -87,10 +87,12 @@
     </div>
     <div class="session-filters" role="group" aria-label="Filter op type">
       <button type="button" class="session-filter is-active" data-session-filter="alle">Alle types <span class="count">69</span></button>
-      <button type="button" class="session-filter" data-session-filter="presentatie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>Presentatie <span class="count">21</span></button>
-      <button type="button" class="session-filter" data-session-filter="workshop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg>Workshop <span class="count">23</span></button>
-      <button type="button" class="session-filter" data-session-filter="gesprekstafel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.5 11.5a8.5 8.5 0 1 1-3.4-6.8L21 3l-1 4.3a8.46 8.46 0 0 1 .5 4.2z"/></svg>Dialoogtafel <span class="count">6</span></button>
-      <button type="button" class="session-filter" data-session-filter="worldcafe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>Worldcafé <span class="count">4</span></button>
+      <button type="button" class="session-filter" data-session-filter="presentatie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>Presentatie <span class="count">23</span></button>
+      <button type="button" class="session-filter" data-session-filter="workshop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg>Workshop <span class="count">17</span></button>
+      <button type="button" class="session-filter" data-session-filter="gesprekstafel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.5 11.5a8.5 8.5 0 1 1-3.4-6.8L21 3l-1 4.3a8.46 8.46 0 0 1 .5 4.2z"/></svg>Dialoogtafel <span class="count">7</span></button>
+      <button type="button" class="session-filter" data-session-filter="worldcafe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>Worldcafé <span class="count">3</span></button>
+      <button type="button" class="session-filter" data-session-filter="wandeling"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20c3-6 5-2 8-8s5-2 8-8"/><circle cx="4" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="20" cy="4" r="1.4" fill="currentColor" stroke="none"/></svg>Wandeling <span class="count">2</span></button>
+      <button type="button" class="session-filter" data-session-filter="inspiratiesessie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.3 1 2.1V16h6v-.4c0-.8.4-1.5 1-2.1A6 6 0 0 0 12 3z"/></svg>Inspiratiesessie <span class="count">2</span></button>
       <button type="button" class="session-filter" data-session-filter="pitch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg>Practorpitch <span class="count">10</span></button>
       <button type="button" class="session-filter" data-session-filter="partnerpitch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9v6h4l5 4V5L7 9H3z"/><path d="M16.5 8a4 4 0 0 1 0 8"/></svg>Partnerpitch <span class="count">5</span></button>
     </div>
@@ -130,11 +132,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="workshop" data-ronde="1">
-        <div class="session-card__visual session-card__visual--workshop">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+      <article class="session-card" data-session-type="worldcafe" data-ronde="1">
+        <div class="session-card__visual session-card__visual--worldcafe">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="02" data-fav-titel="De toekomst van kwalitatieve leermiddelen: collectief ontwikkelen met AI als versneller" data-fav-type="Workshop" data-fav-ronde="1" data-fav-tijd="11.00 – 12.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="02" data-fav-titel="De toekomst van kwalitatieve leermiddelen: collectief ontwikkelen met AI als versneller" data-fav-type="Worldcafé" data-fav-ronde="1" data-fav-tijd="11.00 – 12.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 02</span>
           </div>
         </div>
@@ -146,7 +148,7 @@
               <span class="session-card__partner-tag">Organisator</span>
             </div>
           </div>
-          <span class="session-badge session-badge--workshop">Workshop</span>
+          <span class="session-badge session-badge--worldcafe">Worldcafé</span>
           <h3>De toekomst van kwalitatieve leermiddelen: collectief ontwikkelen met AI als versneller</h3>
           
           <p class="session-card__teaser">Steeds opnieuw beginnen bij het maken van leermiddelen? Dat kan slimmer! In deze workshop zie je in een live demonstratie hoe je met de Leermiddelen Generator samen sneller en met meer kwaliteit leermiddelen ontwikkelt, arrangeert en actualiseert. AI versnelt, maar jij als professional houdt de regie. Je verkent meteen wat dit kan betekenen voor je eigen praktijk.</p>
@@ -492,7 +494,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="presentatie" data-ronde="1">
+      <article class="session-card" data-session-type="presentatie" data-ronde="1">
         <div class="session-card__visual session-card__visual--presentatie">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <div class="session-card__visual-right">
@@ -520,7 +522,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="presentatie" data-ronde="1">
+      <article class="session-card" data-session-type="presentatie" data-ronde="1">
         <div class="session-card__visual session-card__visual--presentatie">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <div class="session-card__visual-right">
@@ -688,7 +690,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="1">
+      <article class="session-card" data-session-type="pitch" data-ronde="1">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -716,7 +718,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="1">
+      <article class="session-card" data-session-type="pitch" data-ronde="1">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -744,7 +746,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="1">
+      <article class="session-card" data-session-type="pitch" data-ronde="1">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -772,7 +774,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="1">
+      <article class="session-card" data-session-type="pitch" data-ronde="1">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -800,11 +802,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="workshop" data-ronde="1">
-        <div class="session-card__visual session-card__visual--workshop">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+      <article class="session-card" data-session-type="wandeling" data-ronde="1">
+        <div class="session-card__visual session-card__visual--wandeling">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20c3-6 5-2 8-8s5-2 8-8"/><circle cx="4" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="20" cy="4" r="1.4" fill="currentColor" stroke="none"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="26" data-fav-titel="Wandelen met het vergezicht op onderwijs" data-fav-type="Workshop" data-fav-ronde="1" data-fav-tijd="11.00 – 12.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="26" data-fav-titel="Wandelen met het vergezicht op onderwijs" data-fav-type="Wandeling" data-fav-ronde="1" data-fav-tijd="11.00 – 12.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 26</span>
           </div>
         </div>
@@ -816,7 +818,7 @@
               <span class="session-card__partner-tag">Organisator</span>
             </div>
           </div>
-          <span class="session-badge session-badge--workshop">Workshop</span>
+          <span class="session-badge session-badge--wandeling">Wandeling</span>
           <h3>Wandelen met het vergezicht op onderwijs</h3>
           
           <p class="session-card__teaser">Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
@@ -866,11 +868,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="workshop" data-ronde="2">
-        <div class="session-card__visual session-card__visual--workshop">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+      <article class="session-card" data-session-type="worldcafe" data-ronde="2">
+        <div class="session-card__visual session-card__visual--worldcafe">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="28" data-fav-titel="De toekomst van kwalitatieve leermiddelen: collectief ontwikkelen met AI als versneller" data-fav-type="Workshop" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="28" data-fav-titel="De toekomst van kwalitatieve leermiddelen: collectief ontwikkelen met AI als versneller" data-fav-type="Worldcafé" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 28</span>
           </div>
         </div>
@@ -882,7 +884,7 @@
               <span class="session-card__partner-tag">Organisator</span>
             </div>
           </div>
-          <span class="session-badge session-badge--workshop">Workshop</span>
+          <span class="session-badge session-badge--worldcafe">Worldcafé</span>
           <h3>De toekomst van kwalitatieve leermiddelen: collectief ontwikkelen met AI als versneller</h3>
           
           <p class="session-card__teaser">Steeds opnieuw beginnen bij het maken van leermiddelen? Dat kan slimmer! In deze workshop zie je in een live demonstratie hoe je met de Leermiddelen Generator samen sneller en met meer kwaliteit leermiddelen ontwikkelt, arrangeert en actualiseert. AI versnelt, maar jij als professional houdt de regie. Je verkent meteen wat dit kan betekenen voor je eigen praktijk.</p>
@@ -922,11 +924,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="worldcafe" data-ronde="2">
-        <div class="session-card__visual session-card__visual--worldcafe">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>
+      <article class="session-card" data-session-type="inspiratiesessie" data-ronde="2">
+        <div class="session-card__visual session-card__visual--inspiratiesessie">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.3 1 2.1V16h6v-.4c0-.8.4-1.5 1-2.1A6 6 0 0 0 12 3z"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="30" data-fav-titel="Proeverij Talland College: de kracht van verbinding" data-fav-type="Worldcafé" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="30" data-fav-titel="Proeverij Talland College: de kracht van verbinding" data-fav-type="Inspiratiesessie" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 30</span>
           </div>
         </div>
@@ -938,7 +940,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--worldcafe">Worldcafé</span>
+          <span class="session-badge session-badge--inspiratiesessie">Inspiratiesessie</span>
           <h3>Proeverij Talland College: de kracht van verbinding</h3>
           
           <p class="session-card__teaser">Ervaar tijdens onze Proeverij de kracht van verbinding bij het Talland College. We zoeken voortdurend verbinding met regiopartners en opdrachtgevers om samen schooluitval te verminderen en onderwijsinnovaties te laten ontstaan. Collega's laten je kennismaken met voorbeelden uit onze sectoren: Techniek, Zorg Welzijn en Sport, Business en IT, Horeca Events en Security, en Start. Kom proeven.</p>
@@ -1034,11 +1036,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="worldcafe" data-ronde="2">
-        <div class="session-card__visual session-card__visual--worldcafe">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>
+      <article class="session-card" data-session-type="inspiratiesessie" data-ronde="2">
+        <div class="session-card__visual session-card__visual--inspiratiesessie">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.3 1 2.1V16h6v-.4c0-.8.4-1.5 1-2.1A6 6 0 0 0 12 3z"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="34" data-fav-titel="Natuurlijk Internationaliseren: Samen de grens over" data-fav-type="Worldcafé" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="34" data-fav-titel="Natuurlijk Internationaliseren: Samen de grens over" data-fav-type="Inspiratiesessie" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 34</span>
           </div>
         </div>
@@ -1050,7 +1052,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--worldcafe">Worldcafé</span>
+          <span class="session-badge session-badge--inspiratiesessie">Inspiratiesessie</span>
           <h3>Natuurlijk Internationaliseren: Samen de grens over</h3>
           
           <p class="session-card__teaser">Internationalisering hoeft geen ver-van-je-bed-show te zijn. In deze sessie ontdek je hoe het Consortium Beroepsonderwijs je partner kan zijn bij Erasmus+ en Europese onderwijsprojecten. Aan de hand van concrete voorbeelden zie je hoe bijvoorbeeld het Didactisch Electronisch Patiëntendossier of het project VetSkilling.eu over de grens werkt. Je gaat naar huis met praktische handvatten om zelf een internationaal project te starten binnen je eigen praktijk.</p>
@@ -1118,11 +1120,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="workshop" data-ronde="2">
-        <div class="session-card__visual session-card__visual--workshop">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+      <article class="session-card" data-session-type="presentatie" data-ronde="2">
+        <div class="session-card__visual session-card__visual--presentatie">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="37" data-fav-titel="Levensecht (praktijkgericht)onderwijs voor doeners en makers" data-fav-type="Workshop" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="37" data-fav-titel="Levensecht (praktijkgericht)onderwijs voor doeners en makers" data-fav-type="Presentatie" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 37</span>
           </div>
         </div>
@@ -1134,7 +1136,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--workshop">Workshop</span>
+          <span class="session-badge session-badge--presentatie">Presentatie</span>
           <h3>Levensecht (praktijkgericht)onderwijs voor doeners en makers</h3>
           
           <p class="session-card__teaser">Hoe ontstaat levensecht leren voor doeners en makers? Door echte handelingen en betekenisvolle situaties in te zetten. In deze presentatie laten we met Austin's Butterfly zien hoe kleine stappen, visuele ondersteuning en veilige feedback leerlingen verder helpen. Je gaat zelf aan de slag met een praktische doe-opdracht en vertaalt je ervaring naar je eigen praktijk in PrO, VSO, vmbo of Entree.</p>
@@ -1312,7 +1314,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="presentatie" data-ronde="2">
+      <article class="session-card" data-session-type="presentatie" data-ronde="2">
         <div class="session-card__visual session-card__visual--presentatie">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <div class="session-card__visual-right">
@@ -1424,7 +1426,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="2">
+      <article class="session-card" data-session-type="pitch" data-ronde="2">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -1452,7 +1454,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="2">
+      <article class="session-card" data-session-type="pitch" data-ronde="2">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -1480,7 +1482,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="2">
+      <article class="session-card" data-session-type="pitch" data-ronde="2">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -1508,7 +1510,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="2">
+      <article class="session-card" data-session-type="pitch" data-ronde="2">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -1536,11 +1538,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="workshop" data-ronde="2">
-        <div class="session-card__visual session-card__visual--workshop">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+      <article class="session-card" data-session-type="wandeling" data-ronde="2">
+        <div class="session-card__visual session-card__visual--wandeling">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20c3-6 5-2 8-8s5-2 8-8"/><circle cx="4" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="20" cy="4" r="1.4" fill="currentColor" stroke="none"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="52" data-fav-titel="Wandelen met het vergezicht op onderwijs" data-fav-type="Workshop" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="52" data-fav-titel="Wandelen met het vergezicht op onderwijs" data-fav-type="Wandeling" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 52</span>
           </div>
         </div>
@@ -1552,7 +1554,7 @@
               <span class="session-card__partner-tag">Organisator</span>
             </div>
           </div>
-          <span class="session-badge session-badge--workshop">Workshop</span>
+          <span class="session-badge session-badge--wandeling">Wandeling</span>
           <h3>Wandelen met het vergezicht op onderwijs</h3>
           
           <p class="session-card__teaser">Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
@@ -1789,20 +1791,20 @@
           <span class="session-badge session-badge--presentatie">Presentatie</span>
           <h3>Dementieonderwijs: benutten we wat we al weten?</h3>
           
-          <p class="session-card__teaser">Dementie is een groeiend probleem Het mbo leidt veel toekomstige zorgverleners op, maar hoe vertaal je kennis uit dementieonderzoek naar goed onderwijs? In deze sessie hoor je wat we weten over dementie en welke nieuwe inzichten er zijn. Je denkt mee over beter dementieonderwijs en kunt onderdeel worden van de docentencommunity die zich hiervoor inzet. Deel je ideeën.</p>
+          <p class="session-card__teaser">Dementie is een groeiend probleem. Het mbo leidt veel toekomstige zorgverleners op, maar hoe vertaal je kennis uit dementieonderzoek naar goed onderwijs? In deze sessie hoor je wat we weten over dementie en welke nieuwe inzichten er zijn. Je denkt mee over beter dementieonderwijs en kunt onderdeel worden van de docentencommunity die zich hiervoor inzet. Deel je ideeën.</p>
           <details class="session-card__more">
             <summary>Lees meer</summary>
-            <p>Dementie is een groeiend probleem Het mbo leidt veel toekomstige zorgverleners op, maar hoe vertaal je kennis uit dementieonderzoek naar goed onderwijs? In deze sessie hoor je wat we weten over dementie en welke nieuwe inzichten er zijn. Je denkt mee over beter dementieonderwijs en kunt onderdeel worden van de docentencommunity die zich hiervoor inzet. Deel je ideeën.</p>
+            <p>Dementie is een groeiend probleem. Het mbo leidt veel toekomstige zorgverleners op, maar hoe vertaal je kennis uit dementieonderzoek naar goed onderwijs? In deze sessie hoor je wat we weten over dementie en welke nieuwe inzichten er zijn. Je denkt mee over beter dementieonderwijs en kunt onderdeel worden van de docentencommunity die zich hiervoor inzet. Deel je ideeën.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Minke Kooistra <span class="session-card__speaker-role">Adviseur wetenschappelijk onderzoek</span></dd></dl>
             <div class="session-card__tags"><span>Maatschappelijke Zorg</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span></div>
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="workshop" data-ronde="3">
-        <div class="session-card__visual session-card__visual--workshop">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+      <article class="session-card" data-session-type="presentatie" data-ronde="3">
+        <div class="session-card__visual session-card__visual--presentatie">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="61" data-fav-titel="Studievoortgang en het BSA als Levend Ganzenbord" data-fav-type="Workshop" data-fav-ronde="3" data-fav-tijd="15.00 – 15.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="61" data-fav-titel="Studievoortgang en het BSA als Levend Ganzenbord" data-fav-type="Presentatie" data-fav-ronde="3" data-fav-tijd="15.00 – 15.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 61</span>
           </div>
         </div>
@@ -1814,7 +1816,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--workshop">Workshop</span>
+          <span class="session-badge session-badge--presentatie">Presentatie</span>
           <h3>Studievoortgang en het BSA als Levend Ganzenbord</h3>
           
           <p class="session-card__teaser">Hoe maak je het bindend studiedvies (BSA) en de studievoortgang inzichtelijk voor studenten? Met een levend ganzenbord! In deze workshop speel je het spel zelf en ervaar je hoe studenten spelenderwijs zien waar ze staan. Via reflectieve opdrachten staan ze stil bij wat goed gaat en wat beter kan. Je krijgt volop inspiratie om deze werkvorm meteen in je eigen begeleidingslessen toe te passen.</p>
@@ -1854,11 +1856,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="worldcafe" data-ronde="3">
-        <div class="session-card__visual session-card__visual--worldcafe">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>
+      <article class="session-card" data-session-type="gesprekstafel" data-ronde="3">
+        <div class="session-card__visual session-card__visual--gesprekstafel">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.5 11.5a8.5 8.5 0 1 1-3.4-6.8L21 3l-1 4.3a8.46 8.46 0 0 1 .5 4.2z"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="63" data-fav-titel="Co-creatie en ontwikkelingen in de Creatieve Industrie" data-fav-type="Worldcafé" data-fav-ronde="3" data-fav-tijd="15.00 – 15.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="63" data-fav-titel="Co-creatie en ontwikkelingen in de Creatieve Industrie" data-fav-type="Dialoogtafel" data-fav-ronde="3" data-fav-tijd="15.00 – 15.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 63</span>
           </div>
         </div>
@@ -1870,7 +1872,7 @@
               <span class="session-card__partner-tag">Organisator</span>
             </div>
           </div>
-          <span class="session-badge session-badge--worldcafe">Worldcafé</span>
+          <span class="session-badge session-badge--gesprekstafel">Dialoogtafel</span>
           <h3>Co-creatie en ontwikkelingen in de Creatieve Industrie</h3>
           
           <p class="session-card__teaser">Hoe kun je binnen de Creatieve Industrie samen sterker worden zonder je eigen visie op onderwijs los te laten? In deze sessie ga je met vakgenoten in gesprek over de kansen en spanningen van co-creatie. Je verkent samenwerking rond onderwijsmateriaal en portfolio-examinering, met ruimte voor creatieve inbreng van de docent. Denk mee en ontdek wat co-creatie kan betekenen voor jouw onderwijs.</p>
@@ -1937,7 +1939,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="presentatie" data-ronde="3">
+      <article class="session-card" data-session-type="presentatie" data-ronde="3">
         <div class="session-card__visual session-card__visual--presentatie">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <div class="session-card__visual-right">
@@ -1993,7 +1995,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="3">
+      <article class="session-card" data-session-type="pitch" data-ronde="3">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">
@@ -2021,7 +2023,7 @@
           </details>
         </div>
       </article>
-      <article class="session-card session-card--pending" data-session-type="pitch" data-ronde="3">
+      <article class="session-card" data-session-type="pitch" data-ronde="3">
         <div class="session-card__visual session-card__visual--pitch">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg></span>
           <div class="session-card__visual-right">

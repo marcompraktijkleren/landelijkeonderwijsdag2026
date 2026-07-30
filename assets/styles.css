@@ -487,6 +487,8 @@ ul{margin:0 0 1rem;padding-left:1.1rem}
 .session-card__visual--workshop{background:var(--pink);color:#fff}
 .session-card__visual--gesprekstafel{background:var(--lime);color:var(--ink)}
 .session-card__visual--worldcafe{background:var(--yellow);color:var(--ink)}
+.session-card__visual--wandeling{background:var(--muted);color:#fff}
+.session-card__visual--inspiratiesessie{background:var(--ink-soft);color:#fff}
 .session-card__body{padding:1.3rem 1.4rem 1.5rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
 .session-badge{align-self:flex-start;font-family:var(--font-head);font-weight:700;font-size:.72rem;letter-spacing:.05em;
   text-transform:uppercase;padding:.3rem .7rem;border-radius:999px}
@@ -494,6 +496,8 @@ ul{margin:0 0 1rem;padding-left:1.1rem}
 .session-badge--workshop{background:rgba(231,43,118,.12);color:var(--pink)}
 .session-badge--gesprekstafel{background:rgba(204,214,38,.24);color:#5c6300}
 .session-badge--worldcafe{background:rgba(242,179,0,.16);color:#8a6300}
+.session-badge--wandeling{background:rgba(106,101,96,.14);color:var(--muted)}
+.session-badge--inspiratiesessie{background:rgba(58,70,78,.14);color:var(--ink-soft)}
 .session-badge--pitch{background:rgba(10,58,84,.12);color:var(--forest-deep)}
 .session-badge--partnerpitch{background:rgba(23,24,26,.10);color:var(--ink)}
 .session-card h3{font-family:var(--font-head);font-weight:800;font-size:1.05rem;line-height:1.3;margin:0}
