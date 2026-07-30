@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add("js");</script>
-<link rel="stylesheet" href="assets/styles.css?v=25">
+<link rel="stylesheet" href="assets/styles.css?v=28">
 </head>
 <body>
 
@@ -47,20 +47,30 @@
     <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Programma 2026</div>
     <span class="eyebrow">24 november 2026</span>
     <h1>Het programma</h1>
-    <p class="lead">Een inspirerende dag vol keynotes, presentaties, workshops, worldcafés en dialoogtafels. Het programma vult zich snel. Bekijk hieronder alle sessies die al vaststaan.</p>
+    <p class="lead">Een inspirerende dag vol keynotes, presentaties, workshops, worldcafés en dialoogtafels: het volledige programma staat vast! Ontdek hieronder alle sessies en pitches, en meld je vanaf september aan voor de Landelijke Onderwijsdag 2026.</p>
   </div>
 </section>
 
-<section class="section--tight">
+<section class="section sec-cream2">
   <div class="container">
-    <div class="day-timeline reveal">
+    <div class="center reveal" style="max-width:640px;margin-inline:auto">
+      <span class="eyebrow" style="justify-content:center">Dagprogramma</span>
+      <h2>Zo ziet 24 november eruit</h2>
+      <p class="lead" style="margin-inline:auto">Van inloop tot borrel: dit is de opbouw van de dag.</p>
+    </div>
+    <div class="day-timeline-wrap reveal">
+    <button type="button" class="day-timeline-nav day-timeline-nav--prev" aria-label="Terug in het dagprogramma">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="day-timeline">
       <div class="day-timeline__item">
         <span class="day-timeline__time">09.00</span>
         <span class="day-timeline__label">Inloop</span>
       </div>
       <div class="day-timeline__item">
         <span class="day-timeline__time">10.00</span>
-        <span class="day-timeline__label">Opening door Erwin Pierik &amp; keynote Jolien Dopmeijer</span>
+        <span class="day-timeline__label"><strong>Opening</strong> — Erwin Pierik</span>
+        <span class="day-timeline__sublabel"><strong>Keynote</strong> — Jolien Dopmeijer</span>
       </div>
       <div class="day-timeline__item day-timeline__item--accent">
         <span class="day-timeline__time">11.00 – 12.30</span>
@@ -87,6 +97,10 @@
         <span class="day-timeline__label">Afsluiting en borrel</span>
       </div>
     </div>
+    <button type="button" class="day-timeline-nav day-timeline-nav--next" aria-label="Verder in het dagprogramma">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+    </div>
   </div>
 </section>
 
@@ -95,8 +109,7 @@
     <div class="reveal">
       <span class="eyebrow">Opening &amp; keynote</span>
       <h2>Het fundament van studentenwelzijn</h2>
-      <p class="lead">We kijken ernaar uit om je op 24 november een inspirerende dag te bieden met een gevarieerd aanbod van keynotes, presentaties, workshops, worldcafés en dialoogtafels.</p>
-      <p><strong>Erwin Pierik</strong>, directeur-bestuurder van het Consortium Beroepsonderwijs, opent de dag. Daarna zijn we trots dat <strong>Jolien Dopmeijer</strong> onze keynote verzorgt. In haar lezing <em>'Het fundament van studentenwelzijn: integraal werken'</em> neemt zij je mee in het belang van een integrale aanpak voor het versterken van studentenwelzijn.</p>
+      <p><strong>Erwin Pierik</strong>, directeur-bestuurder van het Consortium Beroepsonderwijs, opent om 10.00 uur de dag. Daarna staat de keynote van <strong>Jolien Dopmeijer</strong> centraal. In haar lezing <em>'Het fundament van studentenwelzijn: integraal werken'</em> neemt zij je mee in het belang van een integrale aanpak voor het versterken van studentenwelzijn.</p>
     </div>
     <div class="media reveal d2">
       <img src="assets/img/speaker-jolien.jpg?v=2" alt="Jolien Dopmeijer, keynote spreker" style="border-radius:var(--r-lg);box-shadow:var(--sh)">
@@ -495,7 +508,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--partnerpitch">Partnerpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Als communiceren spannend wordt</h3>
           <p class="session-card__teaser">Studenten weten vaak wel wat goed communiceren is, maar vinden het spannend om dit echt te doen. Denk aan feedback geven, grenzen aangeven of een lastig gesprek met een zorgvrager voeren. In deze pitch ontdek je hoe je studenten hierop voorbereidt met TrainTool: een veilige oefenruimte waarin ze mogen proberen, fouten maken en opnieuw oefenen.</p>
           <details class="session-card__more">
@@ -522,7 +535,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--partnerpitch">Partnerpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Verbinden: van leermiddel naar les die raakt</h3>
           <p class="session-card__teaser">Hoe maak je van een leermiddel een les die studenten echt raakt en verbindt? In deze pitch deelt ThiemeMeulenhoff de inzichten uit onderzoek onder mbo-docenten en de co-creatie met de praktijk. Je krijgt concrete handvatten om je lessen voor Zorg en welzijn en techniek relevanter te maken met praktijkvoorbeelden, slimme differentiatie en ruimte voor maatwerk.</p>
           <details class="session-card__more">
@@ -745,7 +758,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Verbinden met de beroepspraktijk: wat kun jij morgen doen?</h3>
           
           <p class="session-card__teaser">Maak je onderwijs uitdagender en aantrekkelijker door het te verbinden met de beroepspraktijk! In deze pitch doe je concrete ideeën op aan de hand van praktische voorbeelden. Je ziet hoe je klein kunt beginnen en toch grote impact maakt: zie een praktijkvraag, maak er onderwijs van en doe het samen. Praktisch en meteen toepasbaar.</p>
@@ -773,7 +786,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Innoveren bij Talland Techniek</h3>
           
           <p class="session-card__teaser">Hoe blijft het techniekonderwijs relevant in een snel veranderende wereld? In deze pitch ontdek je hoe twee practoraten binnen Talland Techniek samenwerken om de BOL- en BBL-opleidingen toekomstbestendig te maken. Je hoort hoe onderzoek, innovatie en samenwerking met de praktijk bijdragen aan aantrekkelijker onderwijs en aan vakmanschap dat meebeweegt met de tijd.</p>
@@ -801,7 +814,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>De AI-reddingsboei</h3>
           
           <p class="session-card__teaser">Tweederde van de onderwijsprofessionals heeft nog geen richtlijnen voor het inzetten van AI in het onderwijs. Herken je het gevoel dat je een beetje zwemt? Deze pitch werpt je een reddingsboei toe. Je krijgt direct toepasbare, praktische handvatten om weloverwogen met AI om te gaan in je onderwijs. Voor iedere docent en opleidingsontwerper die houvast zoekt in een wereld waarin AI niet meer weg te denken is.</p>
@@ -829,7 +842,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Zonder relatie geen prestatie: relationeel werken in het onderwijs</h3>
           
           <p class="session-card__teaser">Zonder relatie geen prestatie. Maar hoe werkt dat in de praktijk? In deze pitch zie je hoe relationeel werken bijdraagt aan de motivatie, het welbevinden en het studiesucces van studenten. Met praktijkverhalen en ervaringen uit het practoraat krijg je handvatten om met oprechte aandacht, vertrouwen en verbinding een veilige leeromgeving te creëren.</p>
@@ -1231,7 +1244,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--partnerpitch">Partnerpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>KD-gericht én studentgericht: met Take Care kan het</h3>
           <p class="session-card__teaser">De leerroute ligt vast, en toch wil je een eigen weg volgen binnen je zorgopleiding. Hoe doe je dat? Werkprocessen vormen de basis, maar elke instelling maakt eigen keuzes over wanneer studenten wat leren. In deze pitch laat Malmberg zien hoe je met de methode Take Care en Learnbeat je lesmateriaal eenvoudig naar je hand zet. KD-gericht én studentgericht, dat kan dus prima samen.</p>
           <details class="session-card__more">
@@ -1258,7 +1271,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--partnerpitch">Partnerpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>ZorgPad: samen ontwikkeld, klaar voor KD2026</h3>
           <p class="session-card__teaser">Krijg een exclusief kijkje achter de schermen bij ZorgPad Zorg &amp; Welzijn. In deze pitch laten we zien hoe dit lesmateriaal is ontwikkeld mét de mensen die er in de praktijk mee werken, en hoe het blijft meebewegen met KD2026 en de veranderende zorg. Je ziet hoe verpleegkundigen en verzorgenden samen leren vanuit hetzelfde materiaal, ieder via een eigen leerroute.</p>
           <details class="session-card__more">
@@ -1481,7 +1494,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Verbinden met de beroepspraktijk: wat kun jij morgen doen?</h3>
           
           <p class="session-card__teaser">Maak je onderwijs uitdagender en aantrekkelijker door het te verbinden met de beroepspraktijk! In deze pitch doe je concrete ideeën op aan de hand van praktische voorbeelden. Je ziet hoe je klein kunt beginnen en toch grote impact maakt: zie een praktijkvraag, maak er onderwijs van en doe het samen. Praktisch en meteen toepasbaar.</p>
@@ -1509,7 +1522,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>De AI-reddingsboei</h3>
           
           <p class="session-card__teaser">Tweederde van de onderwijsprofessionals heeft nog geen richtlijnen voor het inzetten van AI in het onderwijs. Herken je het gevoel dat je een beetje zwemt? Deze pitch werpt je een reddingsboei toe. Je krijgt direct toepasbare, praktische handvatten om weloverwogen met AI om te gaan in je onderwijs. Voor iedere docent en opleidingsontwerper die houvast zoekt in een wereld waarin AI niet meer weg te denken is.</p>
@@ -1537,7 +1550,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Zonder relatie geen prestatie: relationeel werken in het onderwijs</h3>
           
           <p class="session-card__teaser">Zonder relatie geen prestatie. Maar hoe werkt dat in de praktijk? In deze pitch zie je hoe relationeel werken bijdraagt aan de motivatie, het welbevinden en het studiesucces van studenten. Met praktijkverhalen en ervaringen uit het practoraat krijg je handvatten om met oprechte aandacht, vertrouwen en verbinding een veilige leeromgeving te creëren.</p>
@@ -1565,7 +1578,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Beroepsvitaliteit: Gezond leren werken in het mbo!</h3>
           
           <p class="session-card__teaser">Beroepsvitaliteit begint niet op de eerste werkdag, maar al op school. In deze pitch leer je wat beroepsvitaliteit precies is en waarom het zo belangrijk is voor een toekomstbestendige arbeidsmarkt. Aan de hand van praktijkvoorbeelden zie je hoe je het integreert in je onderwijs, begeleiding en stages. We illustreren het met een aanpak die onderwijs, praktijk en onderzoek verbindt en die al leidde tot landelijke verankering.</p>
@@ -1939,7 +1952,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--partnerpitch">Partnerpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span></div>
           <h3>Flexibeler leren in het mbo-zorgonderwijs</h3>
           <p class="session-card__teaser">Tekorten aan stageplaatsen, toenemende werkdruk en veranderende studentbehoeften: het mbo-onderwijs in de zorg staat voor stevige uitdagingen. Hoe organiseer je leren effectiever en flexibeler? In deze interactieve sessie deelt BSL Media &amp; Learning praktijkvoorbeelden, ervaringen en inzichten. Je krijgt te zien hoe actuele leermiddelen, digitale leeromgevingen en praktijkgerichte opdrachten studenten beter voorbereiden op de zorg van vandaag.</p>
           <details class="session-card__more">
@@ -2050,7 +2063,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span></div>
           <h3>Innoveren bij Talland Techniek</h3>
           
           <p class="session-card__teaser">Hoe blijft het techniekonderwijs relevant in een snel veranderende wereld? In deze pitch ontdek je hoe twee practoraten binnen Talland Techniek samenwerken om de BOL- en BBL-opleidingen toekomstbestendig te maken. Je hoort hoe onderzoek, innovatie en samenwerking met de praktijk bijdragen aan aantrekkelijker onderwijs en aan vakmanschap dat meebeweegt met de tijd.</p>
@@ -2078,7 +2091,7 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <span class="session-badge session-badge--pitch">Practorpitch</span>
+          <div class="session-card__badges"><span class="session-badge session-badge--pitch">Practorpitch</span></div>
           <h3>Beroepsvitaliteit: Gezond leren werken in het mbo!</h3>
           
           <p class="session-card__teaser">Beroepsvitaliteit begint niet op de eerste werkdag, maar al op school. In deze pitch leer je wat beroepsvitaliteit precies is en waarom het zo belangrijk is voor een toekomstbestendige arbeidsmarkt. Aan de hand van praktijkvoorbeelden zie je hoe je het integreert in je onderwijs, begeleiding en stages. We illustreren het met een aanpak die onderwijs, praktijk en onderzoek verbindt en die al leidde tot landelijke verankering.</p>
@@ -2149,6 +2162,6 @@
   </div>
 </footer>
 
-<script src="assets/main.js?v=11"></script>
+<script src="assets/main.js?v=12"></script>
 </body>
 </html>

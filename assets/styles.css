@@ -414,14 +414,34 @@ ul{margin:0 0 1rem;padding-left:1.1rem}
 .card:nth-child(4n+4) .ico{background:var(--yellow);color:var(--ink)}
 
 /* ---------- Dagprogramma ---------- */
-.day-timeline{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:0;padding:.3rem .1rem 1rem;scrollbar-width:none}
+.day-timeline-wrap{position:relative}
+.day-timeline-wrap::before,.day-timeline-wrap::after{content:'';position:absolute;top:0;bottom:1rem;width:40px;
+  z-index:2;pointer-events:none;transition:opacity .2s}
+.day-timeline-wrap::before{left:0;background:linear-gradient(to right,var(--cream-2),transparent)}
+.day-timeline-wrap::after{right:0;background:linear-gradient(to left,var(--cream-2),transparent)}
+.day-timeline-wrap.is-at-start::before{opacity:0}
+.day-timeline-wrap.is-at-end::after{opacity:0}
+.day-timeline-nav{position:absolute;top:1.6rem;z-index:5;width:38px;height:38px;border-radius:50%;
+  border:1px solid var(--line);background:var(--white);color:var(--ink);display:grid;place-items:center;
+  cursor:pointer;box-shadow:var(--sh-sm);transition:background .2s,box-shadow .2s,opacity .2s}
+.day-timeline-nav:hover{background:var(--ink);color:#fff;box-shadow:var(--sh)}
+.day-timeline-nav svg{width:18px;height:18px}
+.day-timeline-nav--prev{left:-.6rem}
+.day-timeline-nav--next{right:-.6rem}
+.day-timeline-wrap.is-at-start .day-timeline-nav--prev,
+.day-timeline-wrap.is-at-end .day-timeline-nav--next{opacity:0;pointer-events:none}
+@media (max-width:640px){.day-timeline-nav{display:none}.day-timeline-wrap::before,.day-timeline-wrap::after{width:24px}}
+.day-timeline{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:0;padding:.3rem .1rem 1rem;scrollbar-width:none;
+  scroll-snap-type:x mandatory}
 .day-timeline::-webkit-scrollbar{display:none}
 .day-timeline__item{flex:none;display:flex;flex-direction:column;gap:.15rem;padding:.75rem 1.1rem;min-width:132px;
-  border-top:3px solid var(--line)}
+  border-top:3px solid var(--line);scroll-snap-align:start}
 .day-timeline__item--accent{border-top-color:var(--blue-deep)}
 .day-timeline__time{font-family:var(--font-head);font-weight:700;font-size:.85rem;color:var(--ink)}
 .day-timeline__item--accent .day-timeline__time{color:var(--blue-deep)}
 .day-timeline__label{font-size:.8rem;color:var(--muted);line-height:1.3}
+.day-timeline__sublabel{font-size:.76rem;color:var(--muted);line-height:1.3}
+.day-timeline__label strong,.day-timeline__sublabel strong{color:var(--ink);font-family:var(--font-head)}
 @media (max-width:640px){.day-timeline__item{min-width:118px}}
 
 /* ---------- Rondes ---------- */
