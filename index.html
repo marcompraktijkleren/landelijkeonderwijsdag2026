@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add("js");</script>
-<link rel="stylesheet" href="assets/styles.css?v=17">
+<link rel="stylesheet" href="assets/styles.css?v=22">
 </head>
 <body>
 
@@ -147,22 +147,62 @@
   <div class="container">
     <div class="center reveal" style="max-width:620px;margin-inline:auto">
       <span class="eyebrow" style="justify-content:center">Programma</span>
-      <h2>Eerste sprekers bekend</h2>
+      <h2>Een greep uit onze sessieleiders</h2>
       <p class="lead" style="margin-inline:auto">Maak alvast kennis met een aantal van de inspirerende sprekers van 2026.</p>
     </div>
-    <div class="grid grid-3" style="margin-top:2.4rem">
-      <article class="speaker reveal">
-        <img src="assets/img/speaker-jolien.jpg?v=2" alt="Jolien Dopmeijer">
-        <div class="body"><h3>Jolien Dopmeijer</h3><p class="role">Projectleider Studenten bij het Trimbos-instituut</p></div>
-      </article>
-      <article class="speaker reveal d1">
-        <img src="assets/img/speaker-geertjan.jpg" alt="Geert Jan van Ouwendorp">
-        <div class="body"><h3>Geert Jan van Ouwendorp</h3><p class="role">Practor AI, Practoraat Interactieve Technologie van Yonder</p></div>
-      </article>
-      <article class="speaker reveal d2">
-        <img src="assets/img/speaker-lotte.jpg" alt="Lotte Blesgraaf">
-        <div class="body"><h3>Lotte Blesgraaf</h3><p class="role">Programma Manager Duurzaamheid bij Talland College</p></div>
-      </article>
+    <div class="speaker-slider reveal d2">
+      <button type="button" class="speaker-slider__nav speaker-slider__nav--prev" aria-label="Vorige sprekers">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="speaker-slider__track">
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speaker-jolien.jpg?v=2" alt="Jolien Dopmeijer">
+          <div class="body"><h3>Jolien Dopmeijer</h3><p class="role">Projectleider Studenten bij het Trimbos-instituut</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speaker-geertjan.jpg" alt="Geert Jan van Ouwendorp">
+          <div class="body"><h3>Geert Jan van Ouwendorp</h3><p class="role">Practor AI, Practoraat Interactieve Technologie van Yonder</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speaker-lotte.jpg" alt="Lotte Blesgraaf">
+          <div class="body"><h3>Lotte Blesgraaf</h3><p class="role">Programma Manager Duurzaamheid bij Talland College</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/corine-buers.jpg" alt="Corine Buers">
+          <div class="body"><h3>Corine Buers</h3><p class="role">Programmamanager Schooluitval en Jeugdwerkloosheid bij ROC Midden Nederland</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/tilly-ortmans.jpg" alt="Tilly Ortmans">
+          <div class="body"><h3>Tilly Ortmans</h3><p class="role">Regisseur Leven Lang Ontwikkelen (LLO) en Volwassenenonderwijs bij Vista College</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/martin-borsje.jpg" alt="Martin Borsje">
+          <div class="body"><h3>Martin Borsje</h3><p class="role">Docent Mechatronica bij Da Vinci College en contact Internationalisering</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/anne-ruth-oosterbroek.jpg" alt="Anne-Ruth Oosterbroek">
+          <div class="body"><h3>Anne-Ruth Oosterbroek</h3><p class="role">Docent onderzoeker Zorg en Technologie bij ROC van Twente</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/sander-berendsen.jpg" alt="Sander Berendsen">
+          <div class="body"><h3>Sander Berendsen</h3><p class="role">Docent-onderzoeker bij Graafschap College en lerarenopleider aan de HAN Academie Educatie</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/francis-herrijgers.jpg" alt="Francis Herrijgers">
+          <div class="body"><h3>Francis Herrijgers</h3><p class="role">Regisseur immersieve technologie (XR/VR) bij Landstede</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/nastasia-griffioen.jpg" alt="Nastasia Griffioen">
+          <div class="body"><h3>Nastasia Griffioen</h3><p class="role">Coördinator Expertisecentrum Digitalisering en Welzijn en onderzoeker</p></div>
+        </article>
+        <article class="speaker speaker-slider__item">
+          <img src="assets/img/speakers/maaike-van-der-snoek.jpg" alt="Maaike van der Snoek">
+          <div class="body"><h3>Maaike van der Snoek</h3><p class="role">Beleidsadviseur Studentenwelzijn bij Firda</p></div>
+        </article>
+      </div>
+      <button type="button" class="speaker-slider__nav speaker-slider__nav--next" aria-label="Volgende sprekers">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
     </div>
   </div>
 </section>
@@ -310,6 +350,6 @@
 </footer>
 
 <div class="lightbox" aria-hidden="true"><button class="close" aria-label="Sluiten">&times;</button><img src="" alt=""></div>
-<script src="assets/main.js?v=10"></script>
+<script src="assets/main.js?v=11"></script>
 </body>
 </html>

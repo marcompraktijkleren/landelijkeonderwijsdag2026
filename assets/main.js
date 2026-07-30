@@ -377,6 +377,20 @@
     });
   }
 
+  /* Sprekers-slider op de homepage */
+  var speakerTrack = document.querySelector('.speaker-slider__track');
+  if (speakerTrack) {
+    var prevBtn = document.querySelector('.speaker-slider__nav--prev');
+    var nextBtn = document.querySelector('.speaker-slider__nav--next');
+    var scrollByCard = function (dir) {
+      var item = speakerTrack.querySelector('.speaker-slider__item');
+      var step = item ? item.getBoundingClientRect().width + 22 : 260;
+      speakerTrack.scrollBy({ left: dir * step, behavior: 'smooth' });
+    };
+    if (prevBtn) prevBtn.addEventListener('click', function () { scrollByCard(-1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { scrollByCard(1); });
+  }
+
   /* Terug naar boven */
   var backToTop = document.createElement('button');
   backToTop.type = 'button';
