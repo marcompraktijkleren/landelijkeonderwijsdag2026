@@ -414,9 +414,10 @@ ul{margin:0 0 1rem;padding-left:1.1rem}
 .card:nth-child(4n+4) .ico{background:var(--yellow);color:var(--ink)}
 
 /* ---------- Dagprogramma ---------- */
-.day-timeline{display:flex;flex-wrap:wrap;gap:1.2rem 0;padding:.3rem .1rem 1rem}
+.day-timeline{display:flex;flex-wrap:wrap;justify-content:center;gap:1.2rem 0;padding:.3rem .1rem 1rem}
 .day-timeline__item{flex:0 0 auto;display:flex;flex-direction:column;gap:.15rem;padding:.75rem .8rem 0 0;
   border-top:3px solid var(--line)}
+.day-timeline__item:last-child{padding-right:0}
 .day-timeline__item--accent{border-top-color:var(--blue-deep)}
 .day-timeline__time{font-family:var(--font-head);font-weight:700;font-size:.83rem;color:var(--ink);white-space:nowrap}
 .day-timeline__item--accent .day-timeline__time{color:var(--blue-deep)}
