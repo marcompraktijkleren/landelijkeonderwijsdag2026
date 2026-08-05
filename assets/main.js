@@ -391,30 +391,6 @@
     if (nextBtn) nextBtn.addEventListener('click', function () { scrollByCard(1); });
   }
 
-  /* Dagprogramma-tijdlijn op de programmapagina */
-  var timeline = document.querySelector('.day-timeline');
-  var timelineWrap = document.querySelector('.day-timeline-wrap');
-  if (timeline && timelineWrap) {
-    var tPrevBtn = timelineWrap.querySelector('.day-timeline-nav--prev');
-    var tNextBtn = timelineWrap.querySelector('.day-timeline-nav--next');
-    var scrollTimeline = function (dir) {
-      var item = timeline.querySelector('.day-timeline__item');
-      var step = item ? item.getBoundingClientRect().width : 140;
-      timeline.scrollBy({ left: dir * step * 2, behavior: 'smooth' });
-    };
-    if (tPrevBtn) tPrevBtn.addEventListener('click', function () { scrollTimeline(-1); });
-    if (tNextBtn) tNextBtn.addEventListener('click', function () { scrollTimeline(1); });
-    var updateTimelineEdges = function () {
-      var atStart = timeline.scrollLeft <= 2;
-      var atEnd = timeline.scrollLeft + timeline.clientWidth >= timeline.scrollWidth - 2;
-      timelineWrap.classList.toggle('is-at-start', atStart);
-      timelineWrap.classList.toggle('is-at-end', atEnd);
-    };
-    timeline.addEventListener('scroll', updateTimelineEdges, { passive: true });
-    window.addEventListener('resize', updateTimelineEdges);
-    updateTimelineEdges();
-  }
-
   /* Terug naar boven */
   var backToTop = document.createElement('button');
   backToTop.type = 'button';

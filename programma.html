@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add("js");</script>
-<link rel="stylesheet" href="assets/styles.css?v=28">
+<link rel="stylesheet" href="assets/styles.css?v=31">
 </head>
 <body>
 
@@ -58,11 +58,7 @@
       <h2>Zo ziet 24 november eruit</h2>
       <p class="lead" style="margin-inline:auto">Van inloop tot borrel: dit is de opbouw van de dag.</p>
     </div>
-    <div class="day-timeline-wrap reveal">
-    <button type="button" class="day-timeline-nav day-timeline-nav--prev" aria-label="Terug in het dagprogramma">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-    </button>
-    <div class="day-timeline">
+    <div class="day-timeline reveal">
       <div class="day-timeline__item">
         <span class="day-timeline__time">09.00</span>
         <span class="day-timeline__label">Inloop</span>
@@ -73,33 +69,31 @@
         <span class="day-timeline__sublabel"><strong>Keynote</strong> — Jolien Dopmeijer</span>
       </div>
       <div class="day-timeline__item day-timeline__item--accent">
-        <span class="day-timeline__time">11.00 – 12.30</span>
+        <span class="day-timeline__time">11.00–12.30</span>
         <span class="day-timeline__label">Ronde 1</span>
       </div>
       <div class="day-timeline__item">
-        <span class="day-timeline__time">12.30 – 13.15</span>
-        <span class="day-timeline__label">Lunch, Netwerk- en Funplein</span>
+        <span class="day-timeline__time">12.30–13.15</span>
+        <span class="day-timeline__label">Lunch</span>
+        <span class="day-timeline__sublabel">Netwerk- en Funplein</span>
       </div>
       <div class="day-timeline__item day-timeline__item--accent">
-        <span class="day-timeline__time">13.15 – 14.30</span>
+        <span class="day-timeline__time">13.15–14.30</span>
         <span class="day-timeline__label">Ronde 2</span>
       </div>
       <div class="day-timeline__item">
-        <span class="day-timeline__time">14.30 – 15.00</span>
-        <span class="day-timeline__label">Pauze, Netwerk- en Funplein</span>
+        <span class="day-timeline__time">14.30–15.00</span>
+        <span class="day-timeline__label">Pauze</span>
+        <span class="day-timeline__sublabel">Netwerk- en Funplein</span>
       </div>
       <div class="day-timeline__item day-timeline__item--accent">
-        <span class="day-timeline__time">15.00 – 15.30</span>
+        <span class="day-timeline__time">15.00–15.30</span>
         <span class="day-timeline__label">Ronde 3</span>
       </div>
       <div class="day-timeline__item">
         <span class="day-timeline__time">15.30</span>
         <span class="day-timeline__label">Afsluiting en borrel</span>
       </div>
-    </div>
-    <button type="button" class="day-timeline-nav day-timeline-nav--next" aria-label="Verder in het dagprogramma">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-    </button>
     </div>
   </div>
 </section>
@@ -140,9 +134,9 @@
     <div class="session-filters" role="group" aria-label="Filter op type">
       <button type="button" class="session-filter is-active" data-session-filter="alle">Alle types <span class="count">69</span></button>
       <button type="button" class="session-filter" data-session-filter="presentatie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>Presentatie <span class="count">23</span></button>
-      <button type="button" class="session-filter" data-session-filter="workshop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg>Workshop <span class="count">17</span></button>
+      <button type="button" class="session-filter" data-session-filter="workshop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg>Workshop <span class="count">16</span></button>
       <button type="button" class="session-filter" data-session-filter="gesprekstafel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.5 11.5a8.5 8.5 0 1 1-3.4-6.8L21 3l-1 4.3a8.46 8.46 0 0 1 .5 4.2z"/></svg>Dialoogtafel <span class="count">7</span></button>
-      <button type="button" class="session-filter" data-session-filter="worldcafe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>Worldcafé <span class="count">3</span></button>
+      <button type="button" class="session-filter" data-session-filter="worldcafe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>Worldcafé <span class="count">4</span></button>
       <button type="button" class="session-filter" data-session-filter="wandeling"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20c3-6 5-2 8-8s5-2 8-8"/><circle cx="4" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="20" cy="4" r="1.4" fill="currentColor" stroke="none"/></svg>Wandeling <span class="count">2</span></button>
       <button type="button" class="session-filter" data-session-filter="inspiratiesessie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.3 1 2.1V16h6v-.4c0-.8.4-1.5 1-2.1A6 6 0 0 0 12 3z"/></svg>Inspiratiesessie <span class="count">2</span></button>
       <button type="button" class="session-filter" data-session-filter="pitch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg>Practorpitch <span class="count">10</span></button>
@@ -166,7 +160,7 @@
         </div>
         <div class="session-card__body">
           <div class="session-card__partner">
-            <span class="session-card__logo">RZ</span>
+            <span class="session-card__logo"><img src="assets/img/partners/regionale-zorgnetwerken-amr.png" alt="Regionale zorgnetwerken antimicrobiële resistentie logo" loading="lazy"></span>
             <div class="session-card__partner-text">
               <span class="session-card__partner-name">Regionale zorgnetwerken antimicrobiële resistentie</span>
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
@@ -292,7 +286,7 @@
             <summary>Lees meer</summary>
             <p>Waarom verdient bewegen een vaste plek in de schooldag van een mbo-student? En hoe geef je dat vorm? In deze actieve workshop ervaar je zelf het belang van veelzijdig bewegen en ga je aan de slag met ontwerpen. Je denkt na over waar en wanneer studenten kunnen bewegen en hoe je beweging koppelt aan leren. Heb je het beste voor met je studenten? Laat ze bewegen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten</dd><dt>Spreker</dt><dd>Ruben Muller <span class="session-card__speaker-role">Trainer en Opleider</span></dd></dl>
-            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
+            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>Lab</span></div>
           </details>
         </div>
       </article>
@@ -505,7 +499,7 @@
             <span class="session-card__logo"><img src="assets/img/sp-boom.jpg" alt="Koninklijke Boom uitgevers logo" loading="lazy"></span>
             <div class="session-card__partner-text">
               <span class="session-card__partner-name">Koninklijke Boom uitgevers</span>
-              <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
+              <span class="session-card__partner-tag">Partner uit het werkveld</span>
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
@@ -532,7 +526,7 @@
             <span class="session-card__logo"><img src="assets/img/partners/thiememeulenhoff.png" alt="ThiemeMeulenhoff logo" loading="lazy"></span>
             <div class="session-card__partner-text">
               <span class="session-card__partner-name">ThiemeMeulenhoff</span>
-              <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
+              <span class="session-card__partner-tag">Partner uit het werkveld</span>
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
@@ -682,7 +676,7 @@
             <summary>Lees meer</summary>
             <p>Ontmoet vakgenoten en ga met elkaar in gesprek over de actuele vraagstukken in jouw opleidingsdomein. Onder leiding van ontwikkelaars en collega's wissel je aan de dialoogtafel ideeën, ervaringen en perspectieven uit met andere docenten, teamleiders en praktijkopleiders. Je bepaalt zelf mee welke thema's op tafel komen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Ontwikkelaars</dd></dl>
-            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
+            <div class="session-card__tags"><span>PrO / Entree</span><span>vmbo</span></div>
           </details>
         </div>
       </article>
@@ -710,7 +704,7 @@
             <summary>Lees meer</summary>
             <p>Ontmoet vakgenoten en ga met elkaar in gesprek over de actuele vraagstukken in jouw opleidingsdomein. Onder leiding van ontwikkelaars en collega's wissel je aan de dialoogtafel ideeën, ervaringen en perspectieven uit met andere docenten, teamleiders en praktijkopleiders. Je bepaalt zelf mee welke thema's op tafel komen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Ontwikkelaars</dd></dl>
-            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
+            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Verzorgende/Verpleegkunde</span></div>
           </details>
         </div>
       </article>
@@ -858,7 +852,7 @@
         <div class="session-card__visual session-card__visual--wandeling">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20c3-6 5-2 8-8s5-2 8-8"/><circle cx="4" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="20" cy="4" r="1.4" fill="currentColor" stroke="none"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="26" data-fav-titel="Wandelen met het vergezicht op onderwijs" data-fav-type="Wandeling" data-fav-ronde="1" data-fav-tijd="11.00 – 12.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="26" data-fav-titel="Wandelen met een vergezicht op onderwijs" data-fav-type="Wandeling" data-fav-ronde="1" data-fav-tijd="11.00 – 12.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 26</span>
           </div>
         </div>
@@ -871,12 +865,12 @@
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--wandeling">Wandeling</span><span class="session-card__duration">Lange sessie</span></div>
-          <h3>Wandelen met het vergezicht op onderwijs</h3>
+          <h3>Wandelen met een vergezicht op onderwijs</h3>
           
-          <p class="session-card__teaser">Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
+          <p class="session-card__teaser">Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een inspirerende verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
           <details class="session-card__more">
             <summary>Lees meer</summary>
-            <p>Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
+            <p>Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een inspirerende verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren</dd><dt>Spreker</dt><dd>Jan Mannee <span class="session-card__speaker-role">Boswachter</span></dd></dl>
             <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
           </details>
@@ -948,11 +942,11 @@
           </details>
         </div>
       </article>
-      <article class="session-card" data-session-type="workshop" data-ronde="2">
-        <div class="session-card__visual session-card__visual--workshop">
-          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+      <article class="session-card" data-session-type="worldcafe" data-ronde="2">
+        <div class="session-card__visual session-card__visual--worldcafe">
+          <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="29" data-fav-titel="Leer je studenten kritisch zoeken naar de best passende zorginterventie!" data-fav-type="Workshop" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="29" data-fav-titel="Leer je studenten kritisch zoeken naar de best passende zorginterventie!" data-fav-type="Worldcafé" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 29</span>
           </div>
         </div>
@@ -964,13 +958,13 @@
               <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
             </div>
           </div>
-          <div class="session-card__badges"><span class="session-badge session-badge--workshop">Workshop</span><span class="session-card__duration">Lange sessie</span></div>
+          <div class="session-card__badges"><span class="session-badge session-badge--worldcafe">Worldcafé</span><span class="session-card__duration">Lange sessie</span></div>
           <h3>Leer je studenten kritisch zoeken naar de best passende zorginterventie!</h3>
           
-          <p class="session-card__teaser">Studenten gebruiken AI-chatbots die razendsnel antwoord geven op zorgvragen. Maar is die informatie betrouwbaar en passend voor de cliënt? In deze workshop ontdek je hoe je studenten leert kritisch te zoeken naar werkende interventies. Je krijgt handige tips en maakt kennis met twee tools: de InterventieZoekhulp en een bijpassende e-learning. Daarna ga je met elkaar in gesprek over je eigen praktijk.</p>
+          <p class="session-card__teaser">Studenten gebruiken AI-chatbots die razendsnel antwoord geven op zorgvragen. Maar is die informatie betrouwbaar en passend voor de cliënt? In dit worldcafé ontdek je hoe je jouw studenten kritisch leert zoeken naar werkende interventies. Je krijgt handige tips en maakt kennis met twee tools: de InterventieZoekhulp en een bijpassende e-learning. Daarna ga je met elkaar in gesprek over je eigen praktijk.</p>
           <details class="session-card__more">
             <summary>Lees meer</summary>
-            <p>Studenten gebruiken AI-chatbots die razendsnel antwoord geven op zorgvragen. Maar is die informatie betrouwbaar en passend voor de cliënt? In deze workshop ontdek je hoe je studenten leert kritisch te zoeken naar werkende interventies. Je krijgt handige tips en maakt kennis met twee tools: de InterventieZoekhulp en een bijpassende e-learning. Daarna ga je met elkaar in gesprek over je eigen praktijk.</p>
+            <p>Studenten gebruiken AI-chatbots die razendsnel antwoord geven op zorgvragen. Maar is die informatie betrouwbaar en passend voor de cliënt? In dit worldcafé ontdek je hoe je jouw studenten kritisch leert zoeken naar werkende interventies. Je krijgt handige tips en maakt kennis met twee tools: de InterventieZoekhulp en een bijpassende e-learning. Daarna ga je met elkaar in gesprek over je eigen praktijk.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, Praktijkopleiders</dd><dt>Sprekers</dt><dd><ul class="session-card__speakers"><li><span class="session-card__speaker-name">Marijke Spiekhout</span><span class="session-card__speaker-role">Adviseur Leren en Veranderen</span></li><li><span class="session-card__speaker-name">Judith Reinhard</span><span class="session-card__speaker-role">Adviseur Leren en Veranderen</span></li></ul></dd></dl>
             <div class="session-card__tags"><span>Maatschappelijke Zorg</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span></div>
           </details>
@@ -1191,10 +1185,10 @@
           <div class="session-card__badges"><span class="session-badge session-badge--presentatie">Presentatie</span><span class="session-card__duration">Korte sessie</span></div>
           <h3>Levensecht (praktijkgericht)onderwijs voor doeners en makers</h3>
           
-          <p class="session-card__teaser">Hoe ontstaat levensecht leren voor doeners en makers? Door echte handelingen en betekenisvolle situaties in te zetten. In deze presentatie laten we met Austin's Butterfly zien hoe kleine stappen, visuele ondersteuning en veilige feedback leerlingen verder helpen. Je gaat zelf aan de slag met een praktische doe-opdracht en vertaalt je ervaring naar je eigen praktijk in PrO, VSO, vmbo of Entree.</p>
+          <p class="session-card__teaser">Hoe ontstaat levensecht leren voor doeners en makers? Door echte handelingen en betekenisvolle situaties in te zetten. In deze presentatie laten we met Austin's Butterfly zien hoe kleine stappen, visuele ondersteuning en veilige feedback leerlingen verder helpen. Handig te vertalen naar je eigen praktijk in PrO, VSO, vmbo of Entree.</p>
           <details class="session-card__more">
             <summary>Lees meer</summary>
-            <p>Hoe ontstaat levensecht leren voor doeners en makers? Door echte handelingen en betekenisvolle situaties in te zetten. In deze presentatie laten we met Austin's Butterfly zien hoe kleine stappen, visuele ondersteuning en veilige feedback leerlingen verder helpen. Je gaat zelf aan de slag met een praktische doe-opdracht en vertaalt je ervaring naar je eigen praktijk in PrO, VSO, vmbo of Entree.</p>
+            <p>Hoe ontstaat levensecht leren voor doeners en makers? Door echte handelingen en betekenisvolle situaties in te zetten. In deze presentatie laten we met Austin's Butterfly zien hoe kleine stappen, visuele ondersteuning en veilige feedback leerlingen verder helpen. Handig te vertalen naar je eigen praktijk in PrO, VSO, vmbo of Entree.</p>
             <dl><dt>Voor wie</dt><dd>Docenten</dd><dt>Sprekers</dt><dd><ul class="session-card__speakers"><li><span class="session-card__speaker-name">Joost Verbeet</span><span class="session-card__speaker-role">Beleidsmedewerker/leerkracht</span></li><li><span class="session-card__speaker-name">Natasja Looren de Jong</span><span class="session-card__speaker-role">Ontwikkelaar Entree/PrO</span></li></ul></dd></dl>
             <div class="session-card__tags"><span>PrO / Entree</span><span>vmbo</span></div>
           </details>
@@ -1241,7 +1235,7 @@
             <span class="session-card__logo"><img src="assets/img/sp-malmberg.jpg" alt="Malmberg logo" loading="lazy"></span>
             <div class="session-card__partner-text">
               <span class="session-card__partner-name">Malmberg</span>
-              <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
+              <span class="session-card__partner-tag">Partner uit het werkveld</span>
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
@@ -1268,7 +1262,7 @@
             <span class="session-card__logo"><img src="assets/img/sp-floren.png" alt="Floren logo" loading="lazy"></span>
             <div class="session-card__partner-text">
               <span class="session-card__partner-name">Floren</span>
-              <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
+              <span class="session-card__partner-tag">Partner uit het werkveld</span>
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span><span class="session-card__duration">Korte sessie</span></div>
@@ -1418,7 +1412,7 @@
             <summary>Lees meer</summary>
             <p>Ontmoet vakgenoten en ga met elkaar in gesprek over de actuele vraagstukken in jouw opleidingsdomein. Onder leiding van ontwikkelaars en collega's wissel je aan de dialoogtafel ideeën, ervaringen en perspectieven uit met andere docenten, teamleiders en praktijkopleiders. Je bepaalt zelf mee welke thema's op tafel komen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Ontwikkelaars</dd></dl>
-            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
+            <div class="session-card__tags"><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>Lab</span></div>
           </details>
         </div>
       </article>
@@ -1446,7 +1440,7 @@
             <summary>Lees meer</summary>
             <p>Ontmoet vakgenoten en ga met elkaar in gesprek over de actuele vraagstukken in jouw opleidingsdomein. Onder leiding van ontwikkelaars en collega's wissel je aan de dialoogtafel ideeën, ervaringen en perspectieven uit met andere docenten, teamleiders en praktijkopleiders. Je bepaalt zelf mee welke thema's op tafel komen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Ontwikkelaars</dd></dl>
-            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
+            <div class="session-card__tags"><span>Apothekers- Dokters- en Tandartsassistent</span></div>
           </details>
         </div>
       </article>
@@ -1454,7 +1448,7 @@
         <div class="session-card__visual session-card__visual--workshop">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="47" data-fav-titel="Tover met Typografie" data-fav-type="Workshop" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="47" data-fav-titel="Zakelijk tekenen: maak je ideeën visueel!" data-fav-type="Workshop" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 47</span>
           </div>
         </div>
@@ -1467,13 +1461,13 @@
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--workshop">Workshop</span><span class="session-card__duration">Lange sessie</span></div>
-          <h3>Tover met Typografie</h3>
+          <h3>Zakelijk tekenen: maak je ideeën visueel!</h3>
           
-          <p class="session-card__teaser">Ga anders kijken naar teksten, niet naar de inhoud maar naar de vorm. In deze workshop leer je de anatomie van letters kennen en teken je je eigen typo-bieb. Je hebt geen tekentalent nodig, want het is echt technisch tekenen. Aan het einde neem je je eigen naslagwerk mee naar huis. Een sessie vol kijken, doen en durven spelen met typografie.</p>
+          <p class="session-card__teaser">Denk je dat je niet kunt tekenen? Na deze workshop denk je daar anders over. Je leert de basisprincipes van zakelijk tekenen en gaat er meteen zelf mee aan de slag: geen kunst, maar handige tovertrucjes om ideeën in een paar simpele lijnen te visualiseren. Zo maak je lastige onderwerpen in één oogopslag duidelijk, voor jezelf en voor anderen.</p>
           <details class="session-card__more">
             <summary>Lees meer</summary>
-            <p>Ga anders kijken naar teksten, niet naar de inhoud maar naar de vorm. In deze workshop leer je de anatomie van letters kennen en teken je je eigen typo-bieb. Je hebt geen tekentalent nodig, want het is echt technisch tekenen. Aan het einde neem je je eigen naslagwerk mee naar huis. Een sessie vol kijken, doen en durven spelen met typografie.</p>
-            <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Ellen van den Bosch <span class="session-card__speaker-role">manager Techniek &amp; Zorg en Welzijn</span></dd></dl>
+            <p>Denk je dat je niet kunt tekenen? Na deze workshop denk je daar anders over. Je leert de basisprincipes van zakelijk tekenen en gaat er meteen zelf mee aan de slag: geen kunst, maar handige tovertrucjes om ideeën in een paar simpele lijnen te visualiseren. Zo maak je lastige onderwerpen in één oogopslag duidelijk, voor jezelf en voor anderen.</p>
+            <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd></dl>
             <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
           </details>
         </div>
@@ -1594,7 +1588,7 @@
         <div class="session-card__visual session-card__visual--wandeling">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20c3-6 5-2 8-8s5-2 8-8"/><circle cx="4" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="20" cy="4" r="1.4" fill="currentColor" stroke="none"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="52" data-fav-titel="Wandelen met het vergezicht op onderwijs" data-fav-type="Wandeling" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="52" data-fav-titel="Wandelen met een vergezicht op onderwijs" data-fav-type="Wandeling" data-fav-ronde="2" data-fav-tijd="13.15 – 14.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 52</span>
           </div>
         </div>
@@ -1607,12 +1601,12 @@
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--wandeling">Wandeling</span><span class="session-card__duration">Lange sessie</span></div>
-          <h3>Wandelen met het vergezicht op onderwijs</h3>
+          <h3>Wandelen met een vergezicht op onderwijs</h3>
           
-          <p class="session-card__teaser">Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
+          <p class="session-card__teaser">Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een inspirerende verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
           <details class="session-card__more">
             <summary>Lees meer</summary>
-            <p>Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
+            <p>Wandel mee naar nieuwe vergezichten in het onderwijs. Tijdens een inspirerende verfrissende boswandeling ga je met collega's in gesprek over de toekomst van lesmateriaal, examinering en onderwijsontwikkeling. Je deelt je eigen visie, krijgt nieuwe perspectieven en verkent welke rol jij, andere scholen of het Consortium hierin kunnen spelen. De wandeling eindigt op de uitkijktoren, waar we samen de belangrijkste inzichten delen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren</dd><dt>Spreker</dt><dd>Jan Mannee <span class="session-card__speaker-role">Boswachter</span></dd></dl>
             <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
           </details>
@@ -1708,7 +1702,7 @@
             <summary>Lees meer</summary>
             <p>Digibib groeit mee met het onderwijs. Tijdens deze presentatie hoor je hoe ver de ontwikkeling van de nieuwe Digibib is, wat er nu al kan en wat er nog aankomt. Je krijgt volop ruimte om vragen te stellen en mee te denken over toekomstbestendig examineren. Kom langs en ervaar het.</p>
             <dl><dt>Voor wie</dt><dd>Docenten</dd><dt>Sprekers</dt><dd><ul class="session-card__speakers"><li><span class="session-card__speaker-name">Jacqueline Vreedenburgh</span><span class="session-card__speaker-role">Projectleider Digibib 3.0</span></li><li><span class="session-card__speaker-name">Jan Mannee</span><span class="session-card__speaker-role">Projectlid Digibib 3.0</span></li></ul></dd></dl>
-            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>AG</span><span>PW</span><span>SW</span><span>Verzorgende/Verpleegkunde</span><span>MEI</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>CI</span><span>PrO / Entree</span><span>Lab</span></div>
+            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span></div>
           </details>
         </div>
       </article>
@@ -1828,7 +1822,7 @@
         <div class="session-card__visual session-card__visual--presentatie">
           <span class="session-card__visual-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
           <div class="session-card__visual-right">
-            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="60" data-fav-titel="Dementieonderwijs: benutten we wat we al weten?" data-fav-type="Presentatie" data-fav-ronde="3" data-fav-tijd="15.00 – 15.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
+            <button type="button" class="session-card__fav" aria-label="Bewaar als favoriet" aria-pressed="false" data-fav-nr="60" data-fav-titel="Dementieonderwijs: benutten we al wat we weten?" data-fav-type="Presentatie" data-fav-ronde="3" data-fav-tijd="15.00 – 15.30 uur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17.3l-6.2 3.8 1.6-7-5.4-4.7 7.1-.6L12 2l2.9 6.8 7.1.6-5.4 4.7 1.6 7z"/></svg></button>
             <span class="session-card__nr" aria-hidden="true">Nr. 60</span>
           </div>
         </div>
@@ -1841,12 +1835,12 @@
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--presentatie">Presentatie</span></div>
-          <h3>Dementieonderwijs: benutten we wat we al weten?</h3>
+          <h3>Dementieonderwijs: benutten we al wat we weten?</h3>
           
-          <p class="session-card__teaser">Dementie is een groeiend probleem. Het mbo leidt veel toekomstige zorgverleners op, maar hoe vertaal je kennis uit dementieonderzoek naar goed onderwijs? In deze sessie hoor je wat we weten over dementie en welke nieuwe inzichten er zijn. Je denkt mee over beter dementieonderwijs en kunt onderdeel worden van de docentencommunity die zich hiervoor inzet. Deel je ideeën.</p>
+          <p class="session-card__teaser">Dementie is een groeiend probleem. Vrijwel elke student in zorg en welzijn, mbo én hbo, komt straks mensen met dementie tegen. Sluit het onderwijs al aan op wat de praktijk vraagt? We delen inzichten uit ons praktijkgericht onderzoek naar dementie in de wijk en gaan in gesprek: benutten we al wat er is? Je gaat naar huis met direct inzetbare kennis en materialen, en de weg naar netwerken, zoals het PractoratenPlatform Dementie.</p>
           <details class="session-card__more">
             <summary>Lees meer</summary>
-            <p>Dementie is een groeiend probleem. Het mbo leidt veel toekomstige zorgverleners op, maar hoe vertaal je kennis uit dementieonderzoek naar goed onderwijs? In deze sessie hoor je wat we weten over dementie en welke nieuwe inzichten er zijn. Je denkt mee over beter dementieonderwijs en kunt onderdeel worden van de docentencommunity die zich hiervoor inzet. Deel je ideeën.</p>
+            <p>Dementie is een groeiend probleem. Vrijwel elke student in zorg en welzijn, mbo én hbo, komt straks mensen met dementie tegen. Sluit het onderwijs al aan op wat de praktijk vraagt? We delen inzichten uit ons praktijkgericht onderzoek naar dementie in de wijk en gaan in gesprek: benutten we al wat er is? Je gaat naar huis met direct inzetbare kennis en materialen, en de weg naar netwerken, zoals het PractoratenPlatform Dementie.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Minke Kooistra <span class="session-card__speaker-role">Adviseur wetenschappelijk onderzoek</span></dd></dl>
             <div class="session-card__tags"><span>Maatschappelijke Zorg</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span></div>
           </details>
@@ -1904,7 +1898,7 @@
             <summary>Lees meer</summary>
             <p>Hoe bereid je studenten in de zorg beter voor op de praktijk, met minder werkdruk voor werkbegeleiders? In deze sessie ontdek je hoe een leerhuis, een hybride leeromgeving, onderwijs en zorgpraktijk dichter bij elkaar brengt. Je hoort concrete voorbeelden en gaat naar huis met ideeën om samen opleiden echt te verbeteren. Praktijkgericht, herkenbaar en meteen toepasbaar.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Sprekers</dt><dd><ul class="session-card__speakers"><li><span class="session-card__speaker-name">Marianne Schouwstra</span><span class="session-card__speaker-role">Docent onderzoeker</span></li><li><span class="session-card__speaker-name">Leonie van Zijll</span><span class="session-card__speaker-role">Docent leerhuis</span></li></ul></dd></dl>
-            <div class="session-card__tags"><span>Maatschappelijke Zorg</span><span>PW</span><span>SW</span><span>Verzorgende/Verpleegkunde</span></div>
+            <div class="session-card__tags"><span>Maatschappelijke Zorg</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span></div>
           </details>
         </div>
       </article>
@@ -1949,7 +1943,7 @@
             <span class="session-card__logo">BM</span>
             <div class="session-card__partner-text">
               <span class="session-card__partner-name">BSL Media &amp; Learning</span>
-              <span class="session-card__partner-tag">Partner uit het onderwijsveld</span>
+              <span class="session-card__partner-tag">Partner uit het werkveld</span>
             </div>
           </div>
           <div class="session-card__badges"><span class="session-badge session-badge--partnerpitch">Partnerpitch</span></div>
@@ -1973,9 +1967,9 @@
         </div>
         <div class="session-card__body">
           <div class="session-card__partner">
-            <span class="session-card__logo"><img src="assets/img/partners/consortium-beroepsonderwijs.png" alt="Consortium Beroepsonderwijs logo" loading="lazy"></span>
+            <span class="session-card__logo">SP</span>
             <div class="session-card__partner-text">
-              <span class="session-card__partner-name">Consortium Beroepsonderwijs</span>
+              <span class="session-card__partner-name">Stichting Praktijkleren</span>
               <span class="session-card__partner-tag">Organisator</span>
             </div>
           </div>
@@ -2043,7 +2037,7 @@
             <summary>Lees meer</summary>
             <p>Ontmoet vakgenoten en ga met elkaar in gesprek over de actuele vraagstukken in jouw opleidingsdomein. Onder leiding van ontwikkelaars en collega's wissel je aan de dialoogtafel ideeën, ervaringen en perspectieven uit met andere docenten, teamleiders en praktijkopleiders. Je bepaalt zelf mee welke thema's op tafel komen.</p>
             <dl><dt>Voor wie</dt><dd>Docenten, (opleidings)managers, teamleiders, directeuren, Praktijkopleiders</dd><dt>Spreker</dt><dd>Ontwikkelaars</dd></dl>
-            <div class="session-card__tags"><span>Dienstverlening</span><span>Maatschappelijke Zorg</span><span>Apothekers- Dokters- en Tandartsassistent</span><span>Pedagogisch werk</span><span>Sociaal werk</span><span>Verzorgende/Verpleegkunde</span><span>Metaal-Elektro-Installatietechniek</span><span>Technicus Engineering</span><span>Bouw/Infra/GWW</span><span>Creatieve Industrie</span><span>PrO / Entree</span><span>Lab</span><span>vmbo</span></div>
+            <div class="session-card__tags"><span>Pedagogisch werk</span><span>Sociaal werk</span></div>
           </details>
         </div>
       </article>
@@ -2162,6 +2156,6 @@
   </div>
 </footer>
 
-<script src="assets/main.js?v=12"></script>
+<script src="assets/main.js?v=13"></script>
 </body>
 </html>
