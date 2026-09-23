@@ -565,6 +565,9 @@ ul{margin:0 0 1rem;padding-left:1.1rem}
 .session-card--pending::before{content:"Nog niet definitief";display:block;order:-1;flex:none;background:var(--ink);color:#fff;
   font-family:var(--font-head);font-weight:700;font-size:.66rem;text-transform:uppercase;letter-spacing:.04em;
   text-align:center;padding:.4rem .6rem}
+.session-card--full::before{content:"Sessie vol";display:block;order:-1;flex:none;background:var(--pink);color:#fff;
+  font-family:var(--font-head);font-weight:700;font-size:.66rem;text-transform:uppercase;letter-spacing:.04em;
+  text-align:center;padding:.4rem .6rem}
 .session-more-soon{grid-column:1/-1;text-align:center;padding:2.4rem 1.4rem;border:2px dashed var(--line);border-radius:var(--r-lg);color:var(--muted)}
 .session-more-soon strong{color:var(--ink);display:block;font-family:var(--font-head);font-size:1.05rem;margin-bottom:.3rem}
 
